@@ -1,0 +1,3 @@
+xpdf-src/goo/Trace.o: \
+  ../../../texlive-source/libs/xpdf/xpdf-src/goo/Trace.cc aconf.h
+aconf.h:

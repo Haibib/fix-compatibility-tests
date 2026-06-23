@@ -1,0 +1,9 @@
+xpdf-src/xpdf/PDFDocEncoding.o: \
+  ../../../texlive-source/libs/xpdf/xpdf-src/xpdf/PDFDocEncoding.cc \
+  aconf.h ../../../texlive-source/libs/xpdf/xpdf-src/goo/gmempp.h \
+  ../../../texlive-source/libs/xpdf/xpdf-src/xpdf/PDFDocEncoding.h \
+  ../../../texlive-source/libs/xpdf/xpdf-src/xpdf/CharTypes.h
+aconf.h:
+../../../texlive-source/libs/xpdf/xpdf-src/goo/gmempp.h:
+../../../texlive-source/libs/xpdf/xpdf-src/xpdf/PDFDocEncoding.h:
+../../../texlive-source/libs/xpdf/xpdf-src/xpdf/CharTypes.h:

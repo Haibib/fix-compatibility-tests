@@ -1,0 +1,14 @@
+prefix=/home/haibib/fix-project/compatibility/pdflatex-native-build/libs/freetype2/ft-install
+exec_prefix=/home/haibib/fix-project/compatibility/pdflatex-native-build/libs/freetype2/ft-install
+libdir=/home/haibib/fix-project/compatibility/pdflatex-native-build/libs/freetype2
+includedir=/home/haibib/fix-project/compatibility/pdflatex-native-build/libs/freetype2
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.6.20
+Requires: 
+Requires.private: 
+Libs: -L/home/haibib/fix-project/compatibility/pdflatex-native-build/libs/freetype2 -lfreetype 
+Libs.private: 
+Cflags: -I${includedir}/freetype2

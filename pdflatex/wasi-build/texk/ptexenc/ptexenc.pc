@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/wasm32-wasip1
+includedir=${prefix}/include
+
+Name: ptexenc
+Description: Ptexenc pTeX encoding library
+Version: 1.5.3/dev
+Requires.private: kpathsea
+Libs: -L${libdir} -lptexenc
+Cflags: -I${includedir}
+

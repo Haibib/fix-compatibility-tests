@@ -1,0 +1,66 @@
+.TH TIE 1 "20 June 2026" "Web2C 2027/dev"
+.\"=====================================================================
+.SH NAME
+tie \- merge or apply WEB change files
+.\"=====================================================================
+.SH SYNOPSIS
+.B tie
+.BR -c | -m
+.I outputfile masterfile
+.IR changefile .\|.\|.
+.\"=====================================================================
+.SH DESCRIPTION
+The
+.B tie
+program is used to process multiple change files used with the WEB
+system for literate programming.  The WEB programs allow one to apply
+patches to a source file (the
+.IR masterfile )
+by means of a so-called change file, typically only one.
+.B Tie
+can be used to either merge up to 32 change files into a single one,
+as is done as part of building TeX and Metafont,
+or to apply the changes to the
+.I masterfile
+in order to create a new one.  Output of either the new change file or
+the patched master file goes into
+.IR outputfile .
+.\"=====================================================================
+.SH OPTIONS
+.TP
+.B -c
+Create a single change file from the given
+.IR changefile s.
+.TP
+.B -m
+Create a new master file by applying the given
+.IR changefile s.
+.\"=====================================================================
+.SH ENVIRONMENT
+The environment variable WEBINPUTS is used to search for the input files,
+or the system default if WEBINPUTS is not set.  See
+.BR tex (1)
+for the details of the searching. To avoid conflicts with other programs
+that also use WEBINPUTS, you can use the WEBINPUTS_tie environment
+variable to define the search path only for
+.BR tie .
+.\"=====================================================================
+.SH "SEE ALSO"
+.BR ctie (1),
+.BR cweb (1),
+.BR tangle (1).
+.br
+The typeset program, as the file tie.pdf:
+https://ctan.org/pkg/knuth-pdf
+.br
+Donald E. Knuth,
+.IR "The WEB System of Structured Documentation" :
+.br
+https://mirrors.ctan.org/info/knuth-pdf/web/webman.pdf
+.\"=====================================================================
+.SH "AUTHOR"
+Klaus Guntermann, TH Darmstadt, Institut f. Theoretische Informatik.  Man page
+by Joachim Schnitter, TH Darmstadt, Phys. Chemie I.
+.PP
+Now maintained as part of TeX Live. Mailing list:
+https://lists.tug.org/tex-k.

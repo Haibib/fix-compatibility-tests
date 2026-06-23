@@ -1,0 +1,1 @@
+../../../../texlive-source/libs/potrace/potrace-src/src/potracelib.h

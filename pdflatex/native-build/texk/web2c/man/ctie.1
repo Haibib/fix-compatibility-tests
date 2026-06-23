@@ -1,0 +1,72 @@
+.TH CTIE 1 "20 June 2026" "Web2C 2027/dev"
+.\"=====================================================================
+.SH NAME
+ctie \- merge or apply CWEB change files
+.\"=====================================================================
+.SH SYNOPSIS
+.B ctie
+.BR -c | -m
+.I outputfile masterfile
+.IR changefile .\|.\|.
+.\"=====================================================================
+.SH DESCRIPTION
+The
+.B ctie
+program is used to process multiple change files used with the CWEB
+system for literate programming.  The CWEB programs allow one to apply
+patches to a source file (the
+.IR masterfile )
+by means of a single change file.
+.B ctie
+can be used to either merge up to 32 change files into a single one or
+to apply the changes to the
+.I masterfile
+in order to create a new master file.  Output of either the new change
+file or the patched master file goes into
+.IR outputfile .
+Any include files (indicated using the CWEB
+.B @i
+command) are fully expanded during
+.B ctie
+processing, which means that the change files are able to modify the
+contents of any included files.
+.SH OPTIONS
+.TP
+.B -c
+Create a single change file from the given
+.IR changefile s.
+.TP
+.B -m
+Create a new master file by applying the given
+.IR changefile s.
+.\"=====================================================================
+.SH ENVIRONMENT
+The environment variable CWEBINPUTS is used to search for the input files,
+or the system default if CWEBINPUTS is not set.  See
+.BR tex (1)
+for the details of the searching.  To avoid conflicts with other programs
+that also use CWEBINPUTS, you can use the CWEBINPUTS_ctie environment
+variable to define the search path only for
+.BR ctie .
+.\"=====================================================================
+.SH "SEE ALSO"
+.BR cweb (1),
+.BR tangle (1),
+.BR tie (1).
+.br
+The typeset program, as the file ctie.pdf:
+https://ctan.org/pkg/knuth-pdf
+.br
+Donald E. Knuth and Silvio Levy,
+.IR "The CWEB System of Structured Documentation" :
+.br
+https://mirrors.ctan.org/info/knuth-pdf/cweb/cwebman.pdf
+.\"=====================================================================
+.SH "AUTHOR"
+Julian Gilbey, jdg@debian.org.  The original TIE program was by Klaus
+Guntermann, TH Darmstadt, Institut f. Theoretische Informatik.  The
+TIE man page was by Joachim Schnitter, TH Darmstadt, Phys. Chemie I,
+and was modified for CTIE by Julian Gilbey.
+.PP
+Now maintained as part of TeX Live. Mailing list:
+https://lists.tug.org/tex-k.

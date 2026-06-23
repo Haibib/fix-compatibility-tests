@@ -1,0 +1,1 @@
+../../../../texlive-source/libs/xpdf/xpdf-src/splash/SplashBitmap.h

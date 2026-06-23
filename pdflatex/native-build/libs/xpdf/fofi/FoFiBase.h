@@ -1,0 +1,1 @@
+../../../../texlive-source/libs/xpdf/xpdf-src/fofi/FoFiBase.h

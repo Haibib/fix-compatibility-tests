@@ -1,0 +1,3 @@
+xpdf-src/goo/FixedPoint.o: \
+  ../../../texlive-source/libs/xpdf/xpdf-src/goo/FixedPoint.cc aconf.h
+aconf.h:

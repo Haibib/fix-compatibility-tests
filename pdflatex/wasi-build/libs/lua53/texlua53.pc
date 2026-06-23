@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/wasm32-wasip1
+includedir=${prefix}/include
+
+Name: Lua for LuaTeX
+Description: Lua 5.3, modified for use with LuaTeX
+Version: 5.3.6
+Libs: -L${libdir} -ltexlua53
+Libs.private: -ldl 
+Cflags: -I${includedir}/texlua53
+

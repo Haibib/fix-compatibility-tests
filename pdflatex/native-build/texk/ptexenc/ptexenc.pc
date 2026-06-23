@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: ptexenc
+Description: Ptexenc pTeX encoding library
+Version: 1.5.3/dev
+Requires.private: kpathsea
+Libs: -L${libdir} -lptexenc
+Cflags: -I${includedir}
+

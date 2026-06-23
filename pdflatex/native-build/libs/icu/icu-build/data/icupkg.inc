@@ -1,0 +1,17 @@
+GENCCODE_ASSEMBLY_TYPE=-a gcc
+SO=so
+SOBJ=so
+A=a
+LIBPREFIX=lib
+LIB_EXT_ORDER=.78.2
+COMPILE=clang -ffunction-sections -fdata-sections -D_REENTRANT  -DU_HAVE_ELF_H=1 -DU_ENABLE_DYLOAD=0  -DU_ALL_IMPLEMENTATION -DU_ATTRIBUTE_DEPRECATED= -O2 -g0 -std=c11  -Qunused-arguments -Wno-parentheses-equality -c
+LIBFLAGS=-I/home/haibib/fix-project/compatibility/pdflatex-native-build/libs/icu/../../../texlive-source/libs/icu/icu-src/source/common -I../common -DPIC -fPIC
+GENLIB=clang -O2 -g0 -std=c11  -Qunused-arguments -Wno-parentheses-equality -Wl,--gc-sections  -shared -Wl,-Bsymbolic
+LDICUDTFLAGS=-nodefaultlibs -nostdlib
+LD_SONAME=-Wl,-soname -Wl,
+RPATH_FLAGS=
+BIR_LDFLAGS=-Wl,-Bsymbolic
+AR=ar
+ARFLAGS=r
+RANLIB=ranlib
+INSTALL_CMD=/usr/bin/install -c

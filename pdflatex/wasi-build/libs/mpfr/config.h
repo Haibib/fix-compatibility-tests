@@ -1,0 +1,249 @@
+/* config.h.  Generated from config.h.in by configure.  */
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Define to 1 if using 'alloca.c'. */
+/* #undef C_ALLOCA */
+
+/* Define to 1 if you have 'alloca', as a function or macro. */
+#define HAVE_ALLOCA 1
+
+/* Define to 1 if <alloca.h> works. */
+#define HAVE_ALLOCA_H 1
+
+/* Define if denormalized floats work. */
+/* #undef HAVE_DENORMS */
+
+/* Define to 1 if the system has the type 'intmax_t'. */
+#define HAVE_INTMAX_T 1
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#define HAVE_INTTYPES_H 1
+
+/* Define one of the following to 1 for the format of a `long double'.
+   If your format is not among these choices, or you don't know what it is,
+   then leave all undefined.
+   IEEE_EXT is the 10-byte IEEE extended precision format.
+   IEEE_QUAD is the 16-byte IEEE quadruple precision format.
+   LITTLE or BIG is the endianness.  */
+/* #undef HAVE_LDOUBLE_IEEE_EXT_LITTLE */
+#define HAVE_LDOUBLE_IEEE_QUAD_LITTLE 1
+/* #undef HAVE_LDOUBLE_IEEE_QUAD_BIG */
+
+/* Define if compiler supports long long */
+#define HAVE_LONG_LONG 1
+
+/* Define to 1 if you have the <minix/config.h> header file. */
+/* #undef HAVE_MINIX_CONFIG_H */
+
+/* Define if stdarg */
+#define HAVE_STDARG 1
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#define HAVE_STDINT_H 1
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#define HAVE_STDIO_H 1
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#define HAVE_STDLIB_H 1
+
+/* Define to 1 if you have the <strings.h> header file. */
+#define HAVE_STRINGS_H 1
+
+/* Define to 1 if you have the <string.h> header file. */
+#define HAVE_STRING_H 1
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#define HAVE_SYS_STAT_H 1
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#define HAVE_SYS_TIME_H 1
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#define HAVE_SYS_TYPES_H 1
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#define HAVE_UNISTD_H 1
+
+/* Define to 1 if you have the `va_copy' function. */
+#define HAVE_VA_COPY 1
+
+/* Define to 1 if you have the <wchar.h> header file. */
+#define HAVE_WCHAR_H 1
+
+/* Define to 1 if you have the `__va_copy' function. */
+/* #undef HAVE___VA_COPY */
+
+/* Define if the FP division by 0 fails. */
+/* #undef MPFR_ERRDIVZERO */
+
+/* Define if you have the `fesetround' function via the <fenv.h> header file.
+   */
+#define MPFR_HAVE_FESETROUND 1
+
+/* Define if you have a working INTMAX_MAX. */
+/* #undef MPFR_HAVE_INTMAX_MAX */
+
+/* Define if NAN == NAN. */
+/* #undef MPFR_NANISNAN */
+
+/* Charset is not consecutive */
+/* #undef MPFR_NO_CONSECUTIVE_CHARSET */
+
+/* gmp_printf cannot use `hh' length modifier */
+/* #undef NPRINTF_HH */
+
+/* gmp_printf cannot read intmax_t */
+/* #undef NPRINTF_J */
+
+/* gmp_printf cannot read long double */
+/* #undef NPRINTF_L */
+
+/* gmp_printf cannot read long long int */
+/* #undef NPRINTF_LL */
+
+/* gmp_printf cannot read ptrdiff_t */
+/* #undef NPRINTF_T */
+
+/* Name of package */
+#define PACKAGE "mpfr--tex-live-"
+
+/* Define to the address where bug reports for this package should be sent. */
+#define PACKAGE_BUGREPORT "tex-k@tug.org"
+
+/* Define to the full name of this package. */
+#define PACKAGE_NAME "mpfr (TeX Live)"
+
+/* Define to the full name and version of this package. */
+#define PACKAGE_STRING "mpfr (TeX Live) 4.2.2"
+
+/* Define to the one symbol short name of this package. */
+#define PACKAGE_TARNAME "mpfr--tex-live-"
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL ""
+
+/* Define to the version of this package. */
+#define PACKAGE_VERSION "4.2.2"
+
+/* Define to `((size_t)-1)' if <stdint.h> does not define it. */
+/* #undef SIZE_MAX */
+
+/* If using the C implementation of alloca, define if you know the
+   direction of stack growth for your system; otherwise it will be
+   automatically deduced at runtime.
+	STACK_DIRECTION > 0 => grows toward higher addresses
+	STACK_DIRECTION < 0 => grows toward lower addresses
+	STACK_DIRECTION = 0 => direction of growth unknown */
+/* #undef STACK_DIRECTION */
+
+/* Define to 1 if all of the C89 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
+#define STDC_HEADERS 1
+
+/* Define to 1 if you can safely include both <sys/time.h> and <time.h>. This
+   macro is obsolete. */
+#define TIME_WITH_SYS_TIME 1
+
+/* Enable extensions on AIX, Interix, z/OS.  */
+#ifndef _ALL_SOURCE
+# define _ALL_SOURCE 1
+#endif
+/* Enable extensions on Cosmopolitan Libc. */
+#ifndef _COSMO_SOURCE
+# define _COSMO_SOURCE 1
+#endif
+/* Enable general extensions on macOS.  */
+#ifndef _DARWIN_C_SOURCE
+# define _DARWIN_C_SOURCE 1
+#endif
+/* Enable general extensions on Solaris.  */
+#ifndef __EXTENSIONS__
+# define __EXTENSIONS__ 1
+#endif
+/* Enable GNU extensions on systems that have them.  */
+#ifndef _GNU_SOURCE
+# define _GNU_SOURCE 1
+#endif
+/* Enable X/Open compliant socket functions that do not require linking
+   with -lxnet on HP-UX 11.11.  */
+#ifndef _HPUX_ALT_XOPEN_SOCKET_API
+# define _HPUX_ALT_XOPEN_SOCKET_API 1
+#endif
+/* Identify the host operating system as Minix.
+   This macro does not affect the system headers' behavior.
+   A future release of Autoconf may stop defining this macro.  */
+#ifndef _MINIX
+/* # undef _MINIX */
+#endif
+/* Enable general extensions on NetBSD.
+   Enable NetBSD compatibility extensions on Minix.  */
+#ifndef _NETBSD_SOURCE
+# define _NETBSD_SOURCE 1
+#endif
+/* Enable OpenBSD compatibility extensions on NetBSD.
+   Oddly enough, this does nothing on OpenBSD.  */
+#ifndef _OPENBSD_SOURCE
+# define _OPENBSD_SOURCE 1
+#endif
+/* Define to 1 if needed for POSIX-compatible behavior.  */
+#ifndef _POSIX_SOURCE
+/* # undef _POSIX_SOURCE */
+#endif
+/* Define to 2 if needed for POSIX-compatible behavior.  */
+#ifndef _POSIX_1_SOURCE
+/* # undef _POSIX_1_SOURCE */
+#endif
+/* Enable POSIX-compatible threading on Solaris.  */
+#ifndef _POSIX_PTHREAD_SEMANTICS
+# define _POSIX_PTHREAD_SEMANTICS 1
+#endif
+/* Enable extensions specified by ISO/IEC TS 18661-5:2014.  */
+#ifndef __STDC_WANT_IEC_60559_ATTRIBS_EXT__
+# define __STDC_WANT_IEC_60559_ATTRIBS_EXT__ 1
+#endif
+/* Enable extensions specified by ISO/IEC TS 18661-1:2014.  */
+#ifndef __STDC_WANT_IEC_60559_BFP_EXT__
+# define __STDC_WANT_IEC_60559_BFP_EXT__ 1
+#endif
+/* Enable extensions specified by ISO/IEC TS 18661-2:2015.  */
+#ifndef __STDC_WANT_IEC_60559_DFP_EXT__
+# define __STDC_WANT_IEC_60559_DFP_EXT__ 1
+#endif
+/* Enable extensions specified by C23 Annex F.  */
+#ifndef __STDC_WANT_IEC_60559_EXT__
+# define __STDC_WANT_IEC_60559_EXT__ 1
+#endif
+/* Enable extensions specified by ISO/IEC TS 18661-4:2015.  */
+#ifndef __STDC_WANT_IEC_60559_FUNCS_EXT__
+# define __STDC_WANT_IEC_60559_FUNCS_EXT__ 1
+#endif
+/* Enable extensions specified by C23 Annex H and ISO/IEC TS 18661-3:2015.  */
+#ifndef __STDC_WANT_IEC_60559_TYPES_EXT__
+# define __STDC_WANT_IEC_60559_TYPES_EXT__ 1
+#endif
+/* Enable extensions specified by ISO/IEC TR 24731-2:2010.  */
+#ifndef __STDC_WANT_LIB_EXT2__
+# define __STDC_WANT_LIB_EXT2__ 1
+#endif
+/* Enable extensions specified by ISO/IEC 24747:2009.  */
+#ifndef __STDC_WANT_MATH_SPEC_FUNCS__
+# define __STDC_WANT_MATH_SPEC_FUNCS__ 1
+#endif
+/* Enable extensions on HP NonStop.  */
+#ifndef _TANDEM_SOURCE
+# define _TANDEM_SOURCE 1
+#endif
+/* Enable X/Open extensions.  Define to 500 only if necessary
+   to make mbstate_t available.  */
+#ifndef _XOPEN_SOURCE
+/* # undef _XOPEN_SOURCE */
+#endif
+
+
+/* Version number of package */
+#define VERSION "4.2.2"
+
+/* Define as 'unsigned int' if <stddef.h> doesn't define. */
+/* #undef size_t */

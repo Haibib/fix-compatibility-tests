@@ -1,0 +1,2 @@
+luatexdir/luafontloader/fontforge/fontforge/libff_a-pua.o: \
+  ../../../texlive-source/texk/web2c/luatexdir/luafontloader/fontforge/fontforge/pua.c

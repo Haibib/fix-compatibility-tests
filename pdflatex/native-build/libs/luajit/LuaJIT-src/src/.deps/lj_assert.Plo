@@ -1,0 +1,2 @@
+LuaJIT-src/src/lj_assert.lo: \
+  ../../../texlive-source/libs/luajit/LuaJIT-src/src/lj_assert.c
