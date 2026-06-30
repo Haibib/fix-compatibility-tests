@@ -1,0 +1,3 @@
+[submodule "pdflatex/texlive-source"]
+	path = pdflatex/texlive-source
+	url = https://github.com/TeX-Live/texlive-source.git

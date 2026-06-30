@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install/lib/wasm32-wasip1'
+libdir='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install/lib/wasm32-wasip1'

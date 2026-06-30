@@ -13,7 +13,7 @@
 # PARTICULAR PURPOSE.
 
 
-VPATH = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper/include
+VPATH = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper/include
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -122,16 +122,16 @@ am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/../../am/hdr_links.am
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
+ACLOCAL = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
+AUTOCONF = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
+AUTOHEADER = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
+AUTOMAKE = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
 AWK = gawk
-CC = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23
+CC = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23
 CCDEPMODE = depmode=gcc3
-CFLAGS = --target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
+CFLAGS = --target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
 CPPFLAGS = 
 CSCOPE = cscope
 CTAGS = ctags
@@ -155,7 +155,7 @@ LIBS =
 LN_S = ln -s
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
+MAKEINFO = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
 MKDIR_P = /usr/bin/mkdir -p
 OBJEXT = o
 PACKAGE = libpaper--tex-live-
@@ -168,16 +168,16 @@ PACKAGE_VERSION = 1.1.29
 PAPERSIZE = a4
 PAPERSIZEVAR = PAPERSIZE
 PATH_SEPARATOR = :
-RANLIB = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib
+RANLIB = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = strip
 VERSION = 1.1.29
 WARNING_CFLAGS = -Wimplicit -Wreturn-type
-abs_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpaper/include
-abs_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper/include
-abs_top_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpaper
-abs_top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper
+abs_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpaper/include
+abs_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper/include
+abs_top_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpaper
+abs_top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper
 ac_ct_CC = 
 am__include = include
 am__leading_dot = .
@@ -198,7 +198,7 @@ host_alias = wasm32-wasip1
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${prefix}/texmf-dist/doc/info
-install_sh = ${SHELL} /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
+install_sh = ${SHELL} /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
 libdir = ${exec_prefix}/lib/wasm32-wasip1
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -207,18 +207,18 @@ mandir = ${prefix}/texmf-dist/doc/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install
+prefix = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper/include
+srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper/include
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = ../
 top_builddir = ..
-top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper
+top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/libs/libpaper
 LIBPAPER_LIB = $(top_srcdir)/$(LIBPAPER_TREE)/lib
 hdr_links = $(LIBPAPER_LIB)/paper.h
 all: all-am

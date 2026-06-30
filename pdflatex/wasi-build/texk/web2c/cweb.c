@@ -1,8 +1,8 @@
 /*1:*/
-#line 62 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 62 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*4:*/
-#line 53 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 53 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 #include <ctype.h>  
 #include <stdbool.h>  
@@ -15,31 +15,31 @@
 #ifndef HAVE_GETTEXT
 #define HAVE_GETTEXT 0
 #endif
-#line 65 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 65 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 #if HAVE_GETTEXT
 #include <libintl.h> 
 #else
-#line 69 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 69 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 #define gettext(a) a
 #endif
-#line 71 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 71 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 /*:4*//*91:*/
-#line 699 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 699 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 #if HAVE_GETTEXT
 #include <locale.h>  
 #else
-#line 703 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 703 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 #define setlocale(a,b) ""
 #define bindtextdomain(a,b) ""
 #define textdomain(a) ""
 #endif
-#line 707 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 707 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 /*:91*//*93:*/
-#line 746 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 746 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 #include <kpathsea/kpathsea.h>  
 
@@ -47,13 +47,13 @@
 #include <lib/lib.h>  
 
 /*:93*//*96:*/
-#line 783 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 783 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 #define CWEB
 #include "help.h" 
 
 /*:96*/
-#line 63 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 63 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 #define _(s) gettext(s)
 #define and_and 04
@@ -143,10 +143,10 @@ err_print(_("! Include file name too long"));goto restart;}
 #define DEVICE_SEPARATOR separators[2]
 #define kpse_find_cweb(name) kpse_find_file(name,kpse_cweb_format,true)
 
-#line 64 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 64 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*2:*/
-#line 32 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 32 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 typedef uint8_t eight_bits;
 typedef uint16_t sixteen_bits;
@@ -157,7 +157,7 @@ extern cweb program;
 extern int phase;
 
 /*:2*//*5:*/
-#line 108 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 108 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern char section_text[];
 extern char*section_text_end;
@@ -165,7 +165,7 @@ extern char*id_first;
 extern char*id_loc;
 
 /*:5*//*6:*/
-#line 126 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 126 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern char buffer[];
 extern char*buffer_end;
@@ -173,7 +173,7 @@ extern char*loc;
 extern char*limit;
 
 /*:6*//*7:*/
-#line 143 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 143 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int include_depth;
 extern FILE*file[];
@@ -190,7 +190,7 @@ extern bool changing;
 extern bool web_file_open;
 
 /*:7*//*9:*/
-#line 164 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 164 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern sixteen_bits section_count;
 extern bool changed_section[];
@@ -198,7 +198,7 @@ extern bool change_pending;
 extern bool print_where;
 
 /*:9*//*10:*/
-#line 179 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 179 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 typedef struct name_info{
 char*byte_start;
@@ -223,12 +223,12 @@ extern hash_pointer hash_end;
 extern hash_pointer hash_ptr;
 
 /*:10*//*12:*/
-#line 224 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 224 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int history;
 
 /*:12*//*14:*/
-#line 245 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 245 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int argc;
 extern char**argv;
@@ -241,7 +241,7 @@ extern bool flags[];
 extern const char*use_language;
 
 /*:14*//*15:*/
-#line 261 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 261 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern FILE*C_file;
 extern FILE*tex_file;
@@ -251,22 +251,22 @@ extern FILE*active_file;
 extern FILE*check_file;
 
 /*:15*/
-#line 65 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 65 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*18:*/
-#line 79 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 79 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 72 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 72 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 cweb program;
-#line 81 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 81 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*:18*//*19:*/
-#line 88 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 88 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 int phase;
 
 /*:19*//*21:*/
-#line 126 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 126 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 char section_text[longest_name+1];
 char*section_text_end= section_text+longest_name;
@@ -274,7 +274,7 @@ char*id_first;
 char*id_loc;
 
 /*:21*//*22:*/
-#line 146 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 146 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 char buffer[long_buf_size];
 char*buffer_end= buffer+buf_size-2;
@@ -282,7 +282,7 @@ char*loc= buffer;
 char*limit= buffer;
 
 /*:22*//*25:*/
-#line 190 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 190 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 int include_depth;
 FILE*file[max_include_depth];
@@ -290,9 +290,9 @@ FILE*change_file;
 char file_name[max_include_depth][max_file_name_length];
 
 char change_file_name[max_file_name_length];
-#line 104 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 104 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 char*found_filename;
-#line 198 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 198 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 int line[max_include_depth];
 int change_line;
 int change_depth;
@@ -301,13 +301,13 @@ bool changing;
 bool web_file_open= false;
 
 /*:25*//*26:*/
-#line 216 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 216 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static char change_buffer[buf_size];
 static char*change_limit;
 
 /*:26*//*42:*/
-#line 545 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 545 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 sixteen_bits section_count;
 bool changed_section[max_sections];
@@ -316,7 +316,7 @@ bool change_pending;
 bool print_where= false;
 
 /*:42*//*43:*/
-#line 590 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 590 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 char byte_mem[max_bytes];
 char*byte_mem_end= byte_mem+max_bytes-1;
@@ -324,84 +324,84 @@ name_info name_dir[max_names];
 name_pointer name_dir_end= name_dir+max_names-1;
 
 /*:43*//*44:*/
-#line 601 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 601 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 char*byte_ptr;
 name_pointer name_ptr;
 
 /*:44*//*46:*/
-#line 621 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 621 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 name_pointer hash[hash_size]= {NULL};
 hash_pointer hash_end= hash+hash_size-1;
 hash_pointer hash_ptr;
 
 /*:46*//*65:*/
-#line 999 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 999 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 int history= spotless;
 
 /*:65*//*73:*/
-#line 1124 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1124 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 int argc;
 char**argv;
 char C_file_name[max_file_name_length];
 char tex_file_name[max_file_name_length];
 char idx_file_name[max_file_name_length];
-#line 422 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 422 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 char scn_file_name[max_file_name_length];
 char check_file_name[max_file_name_length];
-#line 1131 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1131 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 bool flags[128];
 
 /*:73*//*83:*/
-#line 1267 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1267 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 FILE*C_file;
 FILE*tex_file;
 FILE*idx_file;
 FILE*scn_file;
-#line 544 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 544 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 FILE*active_file;
 FILE*check_file;
-#line 1273 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1273 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 561 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 561 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:83*//*86:*/
-#line 589 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 589 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 const char*use_language= "";
 
 
 /*:86*//*87:*/
-#line 602 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 602 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 char cb_banner[max_banner];
 string texmf_locale;
 #ifndef SEPARATORS
 #define SEPARATORS "://"
 #endif
-#line 608 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 608 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
  char separators[]= SEPARATORS;
 
 /*:87*/
-#line 66 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 66 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*3:*/
-#line 42 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 42 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern void common_init(void);
 
 /*:3*//*8:*/
-#line 158 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 158 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern bool get_line(void);
 extern void check_complete(void);
 extern void reset_input(void);
 
 /*:8*//*11:*/
-#line 202 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 202 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern name_pointer id_lookup(const char*,const char*,eight_bits);
 
@@ -415,7 +415,7 @@ extern bool names_match(name_pointer,const char*,size_t,eight_bits);
 extern void init_node(name_pointer);
 
 /*:11*//*13:*/
-#line 227 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 227 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int wrap_up(void);
 extern void err_print(const char*);
@@ -427,52 +427,52 @@ extern void cb_show_banner(void);
 extern void print_stats(void);
 
 /*:13*//*24:*/
-#line 176 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 176 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 static bool input_ln(FILE*);
 
 /*:24*//*28:*/
-#line 237 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 237 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 static void prime_the_change_buffer(void);
 
 /*:28*//*33:*/
-#line 334 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 334 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 static void check_change(void);
 
 /*:33*//*55:*/
-#line 760 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 760 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static int web_strcmp(char*,size_t,char*,size_t);
 static name_pointer add_section_name(name_pointer,int,char*,char*,bool);
 static void extend_section_name(name_pointer,char*,char*,bool);
 
 /*:55*//*64:*/
-#line 987 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 987 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 static int section_name_cmp(char**,size_t,name_pointer);
 
 /*:64*//*76:*/
-#line 1184 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1184 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 static void scan_args(void);
 
-#line 474 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 474 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:76*//*98:*/
-#line 796 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 796 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 static void cb_usage(const_string str);
 static void cb_usagehelp(const_string*message);
 
 /*:98*/
-#line 67 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 67 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 
 /*:1*//*20:*/
-#line 95 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 95 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 common_init(void)
 {
-#line 78 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 78 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*45:*/
-#line 605 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 605 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 name_dir->byte_start= byte_ptr= byte_mem;
 name_ptr= name_dir+1;
@@ -480,19 +480,19 @@ name_ptr->byte_start= byte_mem;
 root= NULL;
 
 /*:45*/
-#line 78 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 78 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 /*94:*/
-#line 758 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 758 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 kpse_set_program_name(argv[0],"cweb");
 
 /*:94*/
-#line 79 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 79 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
-#line 85 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 85 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*92:*/
-#line 708 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 708 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 setlocale(LC_MESSAGES,setlocale(LC_CTYPE,""));
 texmf_locale= kpse_var_expand("${TEXMFLOCALEDIR}");
@@ -508,24 +508,24 @@ textdomain("cweb");
 
 
 /*:92*/
-#line 85 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 85 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 /*74:*/
-#line 1137 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1137 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 show_banner= show_happiness= show_progress= make_xrefs= true;
 
 /*:74*/
-#line 86 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 86 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
-#line 101 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 101 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 /*84:*/
-#line 561 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 561 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 scan_args();
 if(program==ctangle){
 if(check_for_change)/*88:*/
-#line 619 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 619 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 {
 if((C_file= fopen(C_file_name,"a"))==NULL)
 fatal(_("! Cannot open output file "),C_file_name);
@@ -542,7 +542,7 @@ fatal(_("! Cannot open output file "),check_file_name);
 }
 
 /*:88*/
-#line 564 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 564 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 else if((C_file= fopen(C_file_name,"wb"))==NULL)
 fatal(_("! Cannot open output file "),C_file_name);
@@ -550,7 +550,7 @@ fatal(_("! Cannot open output file "),C_file_name);
 }
 else{
 if(check_for_change)/*89:*/
-#line 634 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 634 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 {
 if((tex_file= fopen(tex_file_name,"a"))==NULL)
 fatal(_("! Cannot open output file "),tex_file_name);
@@ -567,21 +567,21 @@ fatal(_("! Cannot open output file "),check_file_name);
 }
 
 /*:89*/
-#line 570 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 570 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 else if((tex_file= fopen(tex_file_name,"wb"))==NULL)
 fatal(_("! Cannot open output file "),tex_file_name);
 }
-#line 1285 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1285 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 579 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 579 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:84*/
-#line 101 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 101 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 
 /*:20*//*23:*/
-#line 156 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 156 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static bool input_ln(
 FILE*fp)
@@ -591,14 +591,14 @@ char*k;
 if(feof(fp))return false;
 limit= k= buffer;
 while(k<=buffer_end&&(c= getc(fp))!=EOF&&c!='\n')
-#line 92 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 92 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if((*(k++)= c)!=' '&&c!='\r')limit= k;
-#line 166 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 166 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 if(k> buffer_end){
 while((c= getc(fp))!=EOF&&c!='\n');
-#line 98 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 98 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 loc= buffer;err_print(_("! Input line too long"));
-#line 169 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 169 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 if(c==EOF&&limit==buffer)return false;
@@ -607,14 +607,14 @@ return true;
 }
 
 /*:23*//*27:*/
-#line 227 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 227 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static void
 prime_the_change_buffer(void)
 {
 change_limit= change_buffer;
 /*29:*/
-#line 243 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 243 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 while(true){
 change_line++;
@@ -625,46 +625,46 @@ if(xisupper(buffer[1]))buffer[1]= tolower((int)buffer[1]);
 if(buffer[1]=='x')break;
 if(buffer[1]=='y'||buffer[1]=='z'||buffer[1]=='i'){
 loc= buffer+2;
-#line 110 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 110 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Missing @x in change file"));
-#line 254 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 254 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 }
 
 /*:29*/
-#line 232 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 232 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*30:*/
-#line 260 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 260 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 do{
 change_line++;
 if(!input_ln(change_file)){
-#line 116 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 116 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Change file ended after @x"));
-#line 265 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 265 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 return;
 }
 }while(limit==buffer);
 
 /*:30*/
-#line 233 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 233 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*31:*/
-#line 270 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 270 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 change_limit= change_buffer+(ptrdiff_t)(limit-buffer);
 strncpy(change_buffer,buffer,(size_t)(limit-buffer+1));
 
 /*:31*/
-#line 234 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 234 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 
 /*:27*//*32:*/
-#line 296 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 296 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static void
 check_change(void)
@@ -679,9 +679,9 @@ if(!change_pending)changed_section[section_count]= true;
 while(true){
 changing= print_where= true;change_line++;
 if(!input_ln(change_file)){
-#line 122 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 122 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Change file ended before @y"));
-#line 311 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 311 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 change_limit= change_buffer;changing= false;
 return;
@@ -689,21 +689,21 @@ return;
 if(limit> buffer+1&&buffer[0]=='@'){
 if(xisupper(buffer[1]))buffer[1]= tolower((int)buffer[1]);
 /*34:*/
-#line 336 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 336 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(buffer[1]=='x'||buffer[1]=='z'){
-#line 134 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 134 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 loc= buffer+2;err_print(_("! Where is the matching @y?"));
-#line 339 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 339 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 else if(buffer[1]=='y'){
 if(n> 0){
 loc= buffer+2;
 printf("\n! Hmm... %d ",n);
-#line 140 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 140 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("of the preceding lines failed to match"));
-#line 346 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 346 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 change_depth= include_depth;
@@ -711,24 +711,24 @@ return;
 }
 
 /*:34*/
-#line 318 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 318 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 /*31:*/
-#line 270 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 270 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 change_limit= change_buffer+(ptrdiff_t)(limit-buffer);
 strncpy(change_buffer,buffer,(size_t)(limit-buffer+1));
 
 /*:31*/
-#line 320 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 320 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 changing= false;cur_line++;
 while(!input_ln(cur_file)){
 if(include_depth==0){
-#line 128 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 128 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! CWEB file ended during a change"));
-#line 325 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 325 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 input_has_ended= true;return;
 }
@@ -739,20 +739,20 @@ if(lines_dont_match)n++;
 }
 
 /*:32*//*35:*/
-#line 362 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 362 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 bool get_line(void)
 {
 restart:
 if(changing&&include_depth==change_depth)
 /*38:*/
-#line 470 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 470 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 {
 change_line++;
 if(!input_ln(change_file)){
-#line 240 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 240 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Change file ended without @z"));
-#line 474 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 474 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 buffer[0]= '@';buffer[1]= 'z';limit= buffer+2;
 }
@@ -768,9 +768,9 @@ if(buffer[0]=='@'){
 if(xisupper(buffer[1]))buffer[1]= tolower((int)buffer[1]);
 if(buffer[1]=='x'||buffer[1]=='y'){
 loc= buffer+2;
-#line 246 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 246 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Where is the matching @z?"));
-#line 490 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 490 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 else if(buffer[1]=='z'){
@@ -781,11 +781,11 @@ prime_the_change_buffer();changing= !changing;print_where= true;
 }
 
 /*:38*/
-#line 367 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 367 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(!changing||include_depth> change_depth){
 /*37:*/
-#line 453 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 453 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 {
 cur_line++;
 while(!input_ln(cur_file)){
@@ -804,7 +804,7 @@ if(change_limit> change_buffer)check_change();
 }
 
 /*:37*/
-#line 369 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 369 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(changing&&include_depth==change_depth)goto restart;
 }
@@ -814,27 +814,27 @@ if(buffer[0]=='@'&&(buffer[1]=='i'||buffer[1]=='I')){
 loc= buffer+2;*limit= '"';
 while(*loc==' '||*loc=='\t')loc++;
 if(loc>=limit){
-#line 146 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 146 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Include file name not given"));
-#line 379 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 379 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 goto restart;
 }
 if(include_depth>=max_include_depth-1){
-#line 152 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 152 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Too many nested includes"));
-#line 384 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 384 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 goto restart;
 }
 include_depth++;
 /*36:*/
-#line 407 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 407 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 {
-#line 189 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 189 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 char*cur_file_name_end= cur_file_name+max_file_name_length-1;
 char*k= cur_file_name;
-#line 412 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 412 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(*loc=='"'){
 loc++;
@@ -845,7 +845,7 @@ while(*loc!=' '&&*loc!='\t'&&*loc!='"'&&k<=cur_file_name_end)*k++= *loc++;
 if(k> cur_file_name_end)too_long();
 
 *k= '\0';
-#line 196 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 196 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if((found_filename= kpse_find_cweb(cur_file_name))!=NULL
 &&(cur_file= fopen(found_filename,"r"))!=NULL){
 
@@ -855,25 +855,25 @@ strcpy(cur_file_name,found_filename+
 ((strncmp(found_filename,"./",2)==0)?2:0));
 free(found_filename);
 }else fatal(_("! Filename too long\n"),found_filename);
-#line 423 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 423 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 cur_line= 0;print_where= true;
 goto restart;
 }
-#line 234 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 234 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 include_depth--;err_print(_("! Cannot open include file"));goto restart;
-#line 451 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 451 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 }
 
 /*:36*/
-#line 388 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 388 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 return true;
 }
 
-#line 167 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 167 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:35*//*39:*/
-#line 502 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 502 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 check_complete(void){
@@ -881,24 +881,24 @@ if(change_limit!=change_buffer){
 strncpy(buffer,change_buffer,(size_t)(change_limit-change_buffer+1));
 limit= buffer+(ptrdiff_t)(change_limit-change_buffer);
 changing= true;change_depth= include_depth;loc= buffer;
-#line 252 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 252 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 err_print(_("! Change file entry did not match"));
-#line 510 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 510 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 }
 
 /*:39*//*40:*/
-#line 518 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 518 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 reset_input(void)
 {
 limit= buffer;loc= buffer+1;buffer[0]= ' ';
 /*41:*/
-#line 533 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 533 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 262 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 262 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if((found_filename= kpse_find_cweb(web_file_name))==NULL
 ||(web_file= fopen(found_filename,"r"))==NULL)
 fatal(_("! Cannot open input file "),web_file_name);
@@ -909,11 +909,11 @@ strcpy(web_file_name,found_filename+
 ((strncmp(found_filename,"./",2)==0)?2:0));
 free(found_filename);
 }else fatal(_("! Filename too long\n"),found_filename);
-#line 539 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 539 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 
 web_file_open= true;
-#line 278 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 278 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if((found_filename= kpse_find_cweb(change_file_name))==NULL
 ||(change_file= fopen(found_filename,"r"))==NULL)
 fatal(_("! Cannot open change file "),change_file_name);
@@ -924,10 +924,10 @@ strcpy(change_file_name,found_filename+
 ((strncmp(found_filename,"./",2)==0)?2:0));
 free(found_filename);
 }else fatal(_("! Filename too long\n"),found_filename);
-#line 544 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 544 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*:41*/
-#line 523 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 523 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 include_depth= cur_line= change_line= 0;
 change_depth= include_depth;
@@ -936,7 +936,7 @@ limit= buffer;loc= buffer+1;buffer[0]= ' ';input_has_ended= false;
 }
 
 /*:40*//*48:*/
-#line 630 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 630 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 name_pointer
 id_lookup(
@@ -951,17 +951,17 @@ name_pointer p;
 if(last==NULL)for(last= first;*last!='\0';last++);
 l= (size_t)(last-first);
 /*49:*/
-#line 653 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 653 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 h= (int)((eight_bits)*i);
 while(++i<last)h= (h+h+(int)((eight_bits)*i))%hash_size;
 
 
 /*:49*/
-#line 643 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 643 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*50:*/
-#line 661 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 661 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 p= hash[h];
 while(p&&!names_match(p,first,l,t))p= p->link;
@@ -971,30 +971,30 @@ p->link= hash[h];hash[h]= p;
 }
 
 /*:50*/
-#line 644 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 644 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(p==name_ptr)/*51:*/
-#line 672 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 672 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 {
-#line 300 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 300 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if(byte_ptr+l> byte_mem_end)overflow(_("byte memory"));
 if(name_ptr>=name_dir_end)overflow(_("name"));
-#line 675 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 675 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 strncpy(byte_ptr,first,l);
 (++name_ptr)->byte_start= byte_ptr+= l;
-#line 307 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 307 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if(program!=ctangle)p->ilk= t,init_node(p);
-#line 678 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 678 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 }
 
 /*:51*/
-#line 645 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 645 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 return p;
 }
 
 /*:48*//*52:*/
-#line 704 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 704 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 print_section_name(
@@ -1013,7 +1013,7 @@ if(q)term_write("...",3);
 }
 
 /*:52*//*53:*/
-#line 721 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 721 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 sprint_section_name(
@@ -1033,7 +1033,7 @@ s= p->byte_start;
 }
 
 /*:53*//*54:*/
-#line 739 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 739 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 print_prefix_name(
@@ -1046,7 +1046,7 @@ if(s+l<(p+1)->byte_start)term_write("...",3);
 }
 
 /*:54*//*56:*/
-#line 765 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 765 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static int web_strcmp(
 char*j,
@@ -1064,7 +1064,7 @@ else return greater;
 }
 
 /*:56*//*57:*/
-#line 794 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 794 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static name_pointer
 add_section_name(
@@ -1077,10 +1077,10 @@ bool ispref)
 name_pointer p= name_ptr;
 char*s= first_chunk(p);
 size_t name_len= (size_t)(last-first+(int)ispref);
-#line 314 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 314 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if(s+name_len> byte_mem_end)overflow(_("byte memory"));
 if(name_ptr+1>=name_dir_end)overflow(_("name"));
-#line 808 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 808 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 (++name_ptr)->byte_start= byte_ptr= s+name_len;
 if(ispref){
 *(byte_ptr-1)= ' ';
@@ -1096,7 +1096,7 @@ return par==NULL?(root= p):c==less?(par->llink= p):(par->rlink= p);
 }
 
 /*:57*//*58:*/
-#line 822 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 822 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static void
 extend_section_name(
@@ -1108,23 +1108,23 @@ bool ispref)
 char*s;
 name_pointer q= p+1;
 size_t name_len= (size_t)(last-first+(int)ispref);
-#line 321 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 321 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if(name_ptr>=name_dir_end)overflow(_("name"));
-#line 834 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 834 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 while(q->link!=name_dir)q= q->link;
 q->link= name_ptr;
 s= name_ptr->byte_start;
 name_ptr->link= name_dir;
-#line 327 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 327 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if(s+name_len> byte_mem_end)overflow(_("byte memory"));
-#line 839 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 839 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 (++name_ptr)->byte_start= byte_ptr= s+name_len;
 strncpy(s,first,name_len);
 if(ispref)*(byte_ptr-1)= ' ';
 }
 
 /*:58*//*59:*/
-#line 850 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 850 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 name_pointer
 section_lookup(
@@ -1139,7 +1139,7 @@ name_pointer par= NULL;
 
 size_t name_len= (size_t)(last-first+1);
 /*60:*/
-#line 874 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 874 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 while(p){
 c= web_strcmp(first,name_len,first_chunk(p),prefix_length(p));
@@ -1149,14 +1149,14 @@ par= p;
 p= (c==less?p->llink:p->rlink);
 }else{
 if(r!=NULL){
-#line 333 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 333 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf("%s",_("\n! Ambiguous prefix: matches <"));
-#line 884 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 884 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 print_prefix_name(p);
-#line 339 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 339 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf("%s",_(">\n and <"));
-#line 887 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 887 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 print_prefix_name(r);
 err_print(">");
 return name_dir;
@@ -1170,27 +1170,27 @@ p= q,q= NULL;
 }
 
 /*:60*/
-#line 864 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 864 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*61:*/
-#line 899 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 899 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(r==NULL)
 return add_section_name(par,c,first,last+1,ispref);
 
 /*:61*/
-#line 865 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 865 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 /*62:*/
-#line 907 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 907 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 switch(section_name_cmp(&first,name_len,r)){
 
 case prefix:
 if(!ispref){
-#line 345 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 345 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf("%s",_("\n! New name is a prefix of <"));
-#line 913 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 913 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 print_section_name(r);
 err_print(">");
@@ -1202,34 +1202,34 @@ case extension:if(!ispref||first<=last)
 extend_section_name(r,first,last+1,ispref);
 break;
 case bad_extension:
-#line 351 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 351 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf("%s",_("\n! New name extends <"));
-#line 925 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 925 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 print_section_name(r);
 err_print(">");
 break;
 default:
-#line 357 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 357 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf("%s",_("\n! Section name incompatible with <"));
-#line 931 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 931 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 print_prefix_name(r);
-#line 363 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 363 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf("%s",_(">,\n which abbreviates <"));
-#line 934 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 934 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 print_section_name(r);
 err_print(">");
 }
 return r;
 
 /*:62*/
-#line 866 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 866 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 
 /*:59*//*63:*/
-#line 955 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 955 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static int section_name_cmp(
 char**pfirst,
@@ -1263,7 +1263,7 @@ default:return c;
 }
 
 /*:63*//*66:*/
-#line 1009 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1009 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 void
 err_print(
@@ -1271,16 +1271,16 @@ const char*s)
 {
 printf(*s=='!'?"\n%s":"%s",s);
 if(web_file_open)/*67:*/
-#line 1028 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1028 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 {char*k,*l;
 if(changing&&include_depth==change_depth&&change_line> 0)
-#line 372 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 372 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf(_(". (l. %d of change file)\n"),change_line);
 else if(cur_line> 0){
 if(include_depth==0)printf(_(". (l. %d)\n"),cur_line);
 else printf(_(". (l. %d of include file %s)\n"),cur_line,cur_file_name);
-#line 1035 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1035 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 }
 l= (loc>=limit?limit:loc);
 if(l> buffer){
@@ -1296,24 +1296,24 @@ putchar(' ');
 }
 
 /*:67*/
-#line 1015 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1015 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 update_terminal();mark_error();
 }
 
 /*:66*//*68:*/
-#line 1063 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1063 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 int wrap_up(void){
 if(show_progress||show_happiness||history!=spotless)new_line();
 if(show_stats)
 print_stats();
-#line 381 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 381 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*69:*/
-#line 1073 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1073 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 switch(history){
-#line 395 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 395 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 case spotless:
 if(show_happiness)puts(_("(No errors were found.)"));break;
 case harmless_message:
@@ -1322,14 +1322,14 @@ case error_message:
 puts(_("(Pardon me, but I think I spotted something wrong.)"));break;
 case fatal_message:default:
 puts(_("(That was a fatal error, my friend.)"));
-#line 1083 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1083 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 }
 
 /*:69*/
-#line 381 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 381 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 /*90:*/
-#line 652 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 652 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 if(C_file)fclose(C_file);
 if(tex_file)fclose(tex_file);
@@ -1338,15 +1338,15 @@ if(strlen(check_file_name))
 remove(check_file_name);
 
 /*:90*/
-#line 382 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 382 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
-#line 1069 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1069 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 if(history> harmless_message)return EXIT_FAILURE;
 else return EXIT_SUCCESS;
 }
 
 /*:68*//*70:*/
-#line 1091 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1091 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 void
 fatal(
 const char*s,const char*t)
@@ -1357,19 +1357,19 @@ history= fatal_message;exit(wrap_up());
 }
 
 /*:70*//*71:*/
-#line 1102 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1102 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 void
 overflow(
 const char*t)
 {
-#line 408 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 408 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 printf(_("\n! Sorry, %s capacity exceeded"),t);fatal("","");
-#line 1107 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1107 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 }
 
 
 /*:71*//*75:*/
-#line 1155 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1155 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 static void
 scan_args(void)
@@ -1380,41 +1380,41 @@ char*s;
 bool found_web= false,found_change= false,found_out= false;
 
 
-#line 446 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 446 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 strcpy(change_file_name,"/dev/null");
 #if defined DEV_NULL
 strncpy(change_file_name,DEV_NULL,max_file_name_length-2);
 change_file_name[max_file_name_length-2]= '\0';
 #elif defined _DEV_NULL
-#line 451 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 451 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
  strncpy(change_file_name,_DEV_NULL,max_file_name_length-2);
 change_file_name[max_file_name_length-2]= '\0';
 #endif
-#line 454 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 454 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
-#line 1166 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1166 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
  while(--argc> 0){
 if((**(++argv)=='-'||**argv=='+')&&*(*argv+1))/*80:*/
-#line 1245 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1245 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 487 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 487 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 {
 if(strcmp("-help",*argv)==0||strcmp("--help",*argv)==0)
 
 /*97:*/
-#line 787 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 787 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 cb_usagehelp(program==ctangle?CTANGLEHELP:
 program==cweave?CWEAVEHELP:CTWILLHELP);
 
 
 /*:97*/
-#line 490 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 490 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 if(strcmp("-version",*argv)==0||strcmp("--version",*argv)==0)
 
 /*100:*/
-#line 833 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 833 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 printversionandexit(cb_banner,
 program==ctwill?"Donald E. Knuth":"Silvio Levy and Donald E. Knuth",
@@ -1422,7 +1422,7 @@ NULL,"Contemporary development on https://github.com/ascherer/cweb.\n");
 
 
 /*:100*/
-#line 493 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 493 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 if(strcmp("-verbose",*argv)==0||strcmp("--verbose",*argv)==0)
 
@@ -1436,15 +1436,15 @@ case'v':show_banner= show_progress= show_happiness= true;continue;
 case'q':show_banner= show_progress= show_happiness= false;continue;
 case'd':
 if(sscanf(++dot_pos,"%u",&kpathsea_debug)!=1)/*81:*/
-#line 530 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 530 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 cb_usage(program==ctangle?"ctangle":program==cweave?"cweave":"ctwill");
 
-#line 1260 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1260 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:81*/
-#line 505 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 505 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 while(isdigit(*dot_pos))dot_pos++;
 dot_pos--;
@@ -1455,35 +1455,35 @@ default:flags[(eight_bits)*dot_pos]= flag_change;continue;
 break;
 }
 }
-#line 1248 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1248 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 530 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 530 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:80*/
-#line 1167 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1167 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 else{
 s= name_pos= *argv;dot_pos= NULL;
 while(*s)
-#line 462 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 462 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 if(*s=='.')dot_pos= s++;
 else if(*s==DIR_SEPARATOR||*s==DEVICE_SEPARATOR||*s=='/')
 dot_pos= NULL,name_pos= ++s;
 else s++;
 
-#line 1174 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1174 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 if(!found_web)/*77:*/
-#line 1193 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1193 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 {
 if(s-*argv> max_file_name_length-5)
 /*82:*/
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 fatal(_("! Filename too long\n"),*argv);
-#line 1262 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1262 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 
 /*:82*/
-#line 1196 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1196 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(dot_pos==NULL)
 sprintf(web_file_name,"%s.w",*argv);
@@ -1491,7 +1491,7 @@ else{
 strcpy(web_file_name,*argv);
 *dot_pos= '\0';
 }
-#line 1204 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1204 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 sprintf(tex_file_name,"%s.tex",name_pos);
 if(make_xrefs){
 sprintf(idx_file_name,"%s.idx",name_pos);
@@ -1502,22 +1502,22 @@ found_web= true;
 }
 
 /*:77*/
-#line 1175 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1175 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 else if(!found_change)/*78:*/
-#line 1213 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1213 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 {
 if(strcmp(*argv,"-")!=0){
 if(s-*argv> max_file_name_length-4)
 /*82:*/
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 fatal(_("! Filename too long\n"),*argv);
-#line 1262 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1262 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 
 /*:82*/
-#line 1217 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1217 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(dot_pos==NULL)
 sprintf(change_file_name,"%s.ch",*argv);
@@ -1527,21 +1527,21 @@ found_change= true;
 }
 
 /*:78*/
-#line 1176 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1176 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 else if(!found_out)/*79:*/
-#line 1225 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1225 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 {
 if(s-*argv> max_file_name_length-5)
 /*82:*/
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 fatal(_("! Filename too long\n"),*argv);
-#line 1262 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1262 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 
 /*:82*/
-#line 1228 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1228 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 if(dot_pos==NULL){
 sprintf(tex_file_name,"%s.tex",*argv);
@@ -1559,36 +1559,36 @@ found_out= true;
 }
 
 /*:79*/
-#line 1177 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1177 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 else/*81:*/
-#line 530 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 530 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 cb_usage(program==ctangle?"ctangle":program==cweave?"cweave":"ctwill");
 
-#line 1260 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1260 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:81*/
-#line 1178 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1178 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 }
 if(!found_web)/*81:*/
-#line 530 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 530 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 cb_usage(program==ctangle?"ctangle":program==cweave?"cweave":"ctwill");
 
-#line 1260 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1260 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 /*:81*/
-#line 1181 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
+#line 1181 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/common.w"
 
 }
 
 /*:75*//*99:*/
-#line 800 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 800 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 static void cb_usage(const_string str)
 {
@@ -1620,7 +1620,7 @@ history= spotless;exit(wrap_up());
 }
 
 /*:99*//*101:*/
-#line 841 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
+#line 841 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.ch"
 
 void cb_show_banner(void)
 {

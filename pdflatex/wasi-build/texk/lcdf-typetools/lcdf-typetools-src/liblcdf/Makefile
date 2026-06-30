@@ -14,7 +14,7 @@
 
 
 
-VPATH = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
+VPATH = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -223,18 +223,18 @@ am__define_uniq_tagged_files = \
 am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/../../build-aux/depcomp
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
+ACLOCAL = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AR = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar
+AR = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar
 AS = as
-AUTOCONF = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
+AUTOCONF = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
+AUTOHEADER = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
+AUTOMAKE = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
 AWK = gawk
-CC = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23 -Wimplicit -Wreturn-type
+CC = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23 -Wimplicit -Wreturn-type
 CCDEPMODE = depmode=gcc3
-CFLAGS = --target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
+CFLAGS = --target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
 CPP = 
 CPPFLAGS = 
 CSCOPE = cscope
@@ -265,8 +265,8 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 KPATHSEA_DEPEND = ${top_builddir}/../kpathsea/libkpathsea.la
-KPATHSEA_INCLUDES = -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk -DNO_DEBUG
-KPATHSEA_LIBS = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/libkpathsea.la
+KPATHSEA_INCLUDES = -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk -DNO_DEBUG
+KPATHSEA_LIBS = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/libkpathsea.la
 LCDF_TYPETOOLS_TREE = lcdf-typetools-src
 LCDF_TYPETOOLS_VERSION = 2.110
 LD = /usr/bin/ld
@@ -279,7 +279,7 @@ LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAINT = #
-MAKEINFO = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
+MAKEINFO = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = nm
@@ -297,7 +297,7 @@ PACKAGE_URL =
 PACKAGE_VERSION = 2.110
 PATH_SEPARATOR = :
 PKG_CONFIG = pkg-config
-RANLIB = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib
+RANLIB = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib
 SED = /usr/bin/sed
 SELECTED_SUBDIRS =  cfftot1 mmafm mmpfb otfinfo otftotfm t1dotlessj t1lint t1rawafm t1reencode t1testpage ttftotype42
 SET_MAKE = 
@@ -307,10 +307,10 @@ TEMPLATE_OBJS =
 VERSION = 2.110
 WARNING_CFLAGS = -Wimplicit -Wreturn-type
 WARNING_CXXFLAGS = -Wreturn-type -Wno-write-strings
-abs_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
-abs_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
-abs_top_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/lcdf-typetools
-abs_top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools
+abs_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
+abs_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
+abs_top_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/lcdf-typetools
+abs_top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_CXX = g++
@@ -329,7 +329,7 @@ build_cpu = x86_64
 build_os = linux-gnu
 build_vendor = pc
 builddir = .
-datadir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install
+datadir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install
 datarootdir = ${prefix}
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
@@ -344,7 +344,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${prefix}/texmf-dist/doc/info
-install_sh = ${SHELL} /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
+install_sh = ${SHELL} /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
 libdir = ${exec_prefix}/lib/wasm32-wasip1
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -353,18 +353,18 @@ mandir = ${prefix}/texmf-dist/doc/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install
+prefix = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
+srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools/lcdf-typetools-src/liblcdf
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = ../../
 top_builddir = ../..
-top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools
+top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/lcdf-typetools
 AUTOMAKE_OPTIONS = foreign
 noinst_LIBRARIES = liblcdf.a
 liblcdf_a_SOURCES = bezier.cc clp.c error.cc filename.cc globmatch.cc \

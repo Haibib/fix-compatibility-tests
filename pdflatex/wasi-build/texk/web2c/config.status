@@ -404,18 +404,18 @@ $config_commands
 
 Report bugs to <tex-k@tug.org>."
 
-ac_cs_config='--disable-option-checking --prefix=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install --build=x86_64-linux-gnu --host=wasm32-wasip1 --without-x --disable-shared --disable-all-pkgs --disable-web-progs --enable-tex --disable-synctex --disable-xetex --enable-missing BUILDCC=gcc CC=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang '\''CFLAGS=--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'\'' '\''LDFLAGS=-lwasi-emulated-signal -lwasi-emulated-getpid'\'' AR=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar RANLIB=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib build_alias=x86_64-linux-gnu host_alias=wasm32-wasip1 --enable-native-texlive-build --enable-largefile --disable-silent-rules --enable-multiplatform=yes --enable-cxx-runtime-hack=yes --enable-libtool-hack=yes --enable-texlive-build '\''--bindir=${exec_prefix}/bin/wasm32-wasip1'\'' '\''--libdir=${exec_prefix}/lib/wasm32-wasip1'\'' --enable-autosp=no --enable-axodraw2=no --enable-devnag=no --enable-lacheck=no --enable-m-tx=no --enable-pmx=no --enable-ps2eps=no --enable-t1utils=no --enable-texdoctk=no --enable-tpic2pdftex=no --enable-utfpatgen=no --enable-vlna=no --enable-xindy=no --with-clisp-runtime=default --enable-xml2pmx=no --disable-xpdfopen --enable-web2c=no --enable-afm2pl=no --enable-bibtex-x=no --enable-chktex=no --enable-cjkutils=no --enable-detex=no --enable-dtl=no --enable-dvi2tty=no --enable-dvidvi=no --enable-dviljk=no --enable-dviout-util=no --enable-dvipdfm-x=no --enable-dvipng=no --enable-dvipos=no --enable-dvipsk=no --enable-dvisvgm=no --enable-gregorio=no --enable-gsftopk=no --enable-lcdf-typetools=no --enable-makeindexk=no --enable-makejvf=no --enable-mendexk=no --enable-musixtnt=no --enable-ps2pk=no --enable-psutils=no --enable-seetexk=no --enable-tex4htk=no --enable-ttf2pk2=no --enable-ttfdump=no --enable-upmendex=no --disable-xdvik --enable-xdvipsk=no --enable-texlive=no --with-system-harfbuzz=no --with-system-icu=no --with-system-teckit=no --with-system-graphite2=no --with-system-zziplib=no --with-system-xpdf=no --with-system-mpfi=no --with-system-mpfr=no --with-system-gmp=no --with-system-cairo=no --with-system-pixman=no --with-system-gd=no --with-system-potrace=no --with-system-freetype2=no --with-system-libpng=no --with-system-libpaper=no --with-system-luajit=no --with-system-zlib=no --with-system-ptexenc=no --with-system-kpathsea=no '\''--datarootdir=${prefix}'\'' '\''--mandir=${prefix}/texmf-dist/doc/man'\'' '\''--infodir=${prefix}/texmf-dist/doc/info'\'' --cache-file=/dev/null --srcdir=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c --disable-build'
+ac_cs_config='--disable-option-checking --prefix=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install --build=x86_64-linux-gnu --host=wasm32-wasip1 --without-x --disable-shared --disable-all-pkgs --disable-web-progs --enable-tex --disable-synctex --disable-xetex --enable-missing BUILDCC=gcc CC=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang '\''CFLAGS=--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'\'' '\''LDFLAGS=-lwasi-emulated-signal -lwasi-emulated-getpid'\'' AR=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar RANLIB=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib build_alias=x86_64-linux-gnu host_alias=wasm32-wasip1 --enable-native-texlive-build --enable-largefile --disable-silent-rules --enable-multiplatform=yes --enable-cxx-runtime-hack=yes --enable-libtool-hack=yes --enable-texlive-build '\''--bindir=${exec_prefix}/bin/wasm32-wasip1'\'' '\''--libdir=${exec_prefix}/lib/wasm32-wasip1'\'' --enable-autosp=no --enable-axodraw2=no --enable-devnag=no --enable-lacheck=no --enable-m-tx=no --enable-pmx=no --enable-ps2eps=no --enable-t1utils=no --enable-texdoctk=no --enable-tpic2pdftex=no --enable-utfpatgen=no --enable-vlna=no --enable-xindy=no --with-clisp-runtime=default --enable-xml2pmx=no --disable-xpdfopen --enable-web2c=no --enable-afm2pl=no --enable-bibtex-x=no --enable-chktex=no --enable-cjkutils=no --enable-detex=no --enable-dtl=no --enable-dvi2tty=no --enable-dvidvi=no --enable-dviljk=no --enable-dviout-util=no --enable-dvipdfm-x=no --enable-dvipng=no --enable-dvipos=no --enable-dvipsk=no --enable-dvisvgm=no --enable-gregorio=no --enable-gsftopk=no --enable-lcdf-typetools=no --enable-makeindexk=no --enable-makejvf=no --enable-mendexk=no --enable-musixtnt=no --enable-ps2pk=no --enable-psutils=no --enable-seetexk=no --enable-tex4htk=no --enable-ttf2pk2=no --enable-ttfdump=no --enable-upmendex=no --disable-xdvik --enable-xdvipsk=no --enable-texlive=no --with-system-harfbuzz=no --with-system-icu=no --with-system-teckit=no --with-system-graphite2=no --with-system-zziplib=no --with-system-xpdf=no --with-system-mpfi=no --with-system-mpfr=no --with-system-gmp=no --with-system-cairo=no --with-system-pixman=no --with-system-gd=no --with-system-potrace=no --with-system-freetype2=no --with-system-libpng=no --with-system-libpaper=no --with-system-luajit=no --with-system-zlib=no --with-system-ptexenc=no --with-system-kpathsea=no '\''--datarootdir=${prefix}'\'' '\''--mandir=${prefix}/texmf-dist/doc/man'\'' '\''--infodir=${prefix}/texmf-dist/doc/info'\'' --cache-file=/dev/null --srcdir=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c --disable-build'
 ac_cs_version="\
 Web2C config.status 2027/dev
-configured by /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/configure, generated by GNU Autoconf 2.73,
+configured by /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/configure, generated by GNU Autoconf 2.73,
   with options \"$ac_cs_config\"
 
 Copyright (C) 2026 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/web2c'
-srcdir='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c'
+ac_pwd='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/web2c'
+srcdir='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
 AWK='gawk'
@@ -500,7 +500,7 @@ if $ac_cs_silent; then
 fi
 
 if $ac_cs_recheck; then
-  set X /bin/bash '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/configure'  '--disable-option-checking' '--prefix=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install' '--build=x86_64-linux-gnu' '--host=wasm32-wasip1' '--without-x' '--disable-shared' '--disable-all-pkgs' '--disable-web-progs' '--enable-tex' '--disable-synctex' '--disable-xetex' '--enable-missing' 'BUILDCC=gcc' 'CC=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang' 'CFLAGS=--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h' 'LDFLAGS=-lwasi-emulated-signal -lwasi-emulated-getpid' 'AR=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar' 'RANLIB=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib' 'build_alias=x86_64-linux-gnu' 'host_alias=wasm32-wasip1' '--enable-native-texlive-build' '--enable-largefile' '--disable-silent-rules' '--enable-multiplatform=yes' '--enable-cxx-runtime-hack=yes' '--enable-libtool-hack=yes' '--enable-texlive-build' '--bindir=${exec_prefix}/bin/wasm32-wasip1' '--libdir=${exec_prefix}/lib/wasm32-wasip1' '--enable-autosp=no' '--enable-axodraw2=no' '--enable-devnag=no' '--enable-lacheck=no' '--enable-m-tx=no' '--enable-pmx=no' '--enable-ps2eps=no' '--enable-t1utils=no' '--enable-texdoctk=no' '--enable-tpic2pdftex=no' '--enable-utfpatgen=no' '--enable-vlna=no' '--enable-xindy=no' '--with-clisp-runtime=default' '--enable-xml2pmx=no' '--disable-xpdfopen' '--enable-web2c=no' '--enable-afm2pl=no' '--enable-bibtex-x=no' '--enable-chktex=no' '--enable-cjkutils=no' '--enable-detex=no' '--enable-dtl=no' '--enable-dvi2tty=no' '--enable-dvidvi=no' '--enable-dviljk=no' '--enable-dviout-util=no' '--enable-dvipdfm-x=no' '--enable-dvipng=no' '--enable-dvipos=no' '--enable-dvipsk=no' '--enable-dvisvgm=no' '--enable-gregorio=no' '--enable-gsftopk=no' '--enable-lcdf-typetools=no' '--enable-makeindexk=no' '--enable-makejvf=no' '--enable-mendexk=no' '--enable-musixtnt=no' '--enable-ps2pk=no' '--enable-psutils=no' '--enable-seetexk=no' '--enable-tex4htk=no' '--enable-ttf2pk2=no' '--enable-ttfdump=no' '--enable-upmendex=no' '--disable-xdvik' '--enable-xdvipsk=no' '--enable-texlive=no' '--with-system-harfbuzz=no' '--with-system-icu=no' '--with-system-teckit=no' '--with-system-graphite2=no' '--with-system-zziplib=no' '--with-system-xpdf=no' '--with-system-mpfi=no' '--with-system-mpfr=no' '--with-system-gmp=no' '--with-system-cairo=no' '--with-system-pixman=no' '--with-system-gd=no' '--with-system-potrace=no' '--with-system-freetype2=no' '--with-system-libpng=no' '--with-system-libpaper=no' '--with-system-luajit=no' '--with-system-zlib=no' '--with-system-ptexenc=no' '--with-system-kpathsea=no' '--datarootdir=${prefix}' '--mandir=${prefix}/texmf-dist/doc/man' '--infodir=${prefix}/texmf-dist/doc/info' '--cache-file=/dev/null' '--srcdir=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c' '--disable-build' $ac_configure_extra_args --no-create --no-recursion
+  set X /bin/bash '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/configure'  '--disable-option-checking' '--prefix=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install' '--build=x86_64-linux-gnu' '--host=wasm32-wasip1' '--without-x' '--disable-shared' '--disable-all-pkgs' '--disable-web-progs' '--enable-tex' '--disable-synctex' '--disable-xetex' '--enable-missing' 'BUILDCC=gcc' 'CC=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang' 'CFLAGS=--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h' 'LDFLAGS=-lwasi-emulated-signal -lwasi-emulated-getpid' 'AR=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar' 'RANLIB=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib' 'build_alias=x86_64-linux-gnu' 'host_alias=wasm32-wasip1' '--enable-native-texlive-build' '--enable-largefile' '--disable-silent-rules' '--enable-multiplatform=yes' '--enable-cxx-runtime-hack=yes' '--enable-libtool-hack=yes' '--enable-texlive-build' '--bindir=${exec_prefix}/bin/wasm32-wasip1' '--libdir=${exec_prefix}/lib/wasm32-wasip1' '--enable-autosp=no' '--enable-axodraw2=no' '--enable-devnag=no' '--enable-lacheck=no' '--enable-m-tx=no' '--enable-pmx=no' '--enable-ps2eps=no' '--enable-t1utils=no' '--enable-texdoctk=no' '--enable-tpic2pdftex=no' '--enable-utfpatgen=no' '--enable-vlna=no' '--enable-xindy=no' '--with-clisp-runtime=default' '--enable-xml2pmx=no' '--disable-xpdfopen' '--enable-web2c=no' '--enable-afm2pl=no' '--enable-bibtex-x=no' '--enable-chktex=no' '--enable-cjkutils=no' '--enable-detex=no' '--enable-dtl=no' '--enable-dvi2tty=no' '--enable-dvidvi=no' '--enable-dviljk=no' '--enable-dviout-util=no' '--enable-dvipdfm-x=no' '--enable-dvipng=no' '--enable-dvipos=no' '--enable-dvipsk=no' '--enable-dvisvgm=no' '--enable-gregorio=no' '--enable-gsftopk=no' '--enable-lcdf-typetools=no' '--enable-makeindexk=no' '--enable-makejvf=no' '--enable-mendexk=no' '--enable-musixtnt=no' '--enable-ps2pk=no' '--enable-psutils=no' '--enable-seetexk=no' '--enable-tex4htk=no' '--enable-ttf2pk2=no' '--enable-ttfdump=no' '--enable-upmendex=no' '--disable-xdvik' '--enable-xdvipsk=no' '--enable-texlive=no' '--with-system-harfbuzz=no' '--with-system-icu=no' '--with-system-teckit=no' '--with-system-graphite2=no' '--with-system-zziplib=no' '--with-system-xpdf=no' '--with-system-mpfi=no' '--with-system-mpfr=no' '--with-system-gmp=no' '--with-system-cairo=no' '--with-system-pixman=no' '--with-system-gd=no' '--with-system-potrace=no' '--with-system-freetype2=no' '--with-system-libpng=no' '--with-system-libpaper=no' '--with-system-luajit=no' '--with-system-zlib=no' '--with-system-ptexenc=no' '--with-system-kpathsea=no' '--datarootdir=${prefix}' '--mandir=${prefix}/texmf-dist/doc/man' '--infodir=${prefix}/texmf-dist/doc/info' '--cache-file=/dev/null' '--srcdir=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c' '--disable-build' $ac_configure_extra_args --no-create --no-recursion
   shift
   \printf '%s\n' "running CONFIG_SHELL=/bin/bash $*" >&6
   CONFIG_SHELL='/bin/bash'
@@ -573,18 +573,18 @@ file_magic_cmd='$MAGIC_CMD'
 file_magic_glob=''
 want_nocaseglob='no'
 sharedlib_from_linklib_cmd='printf %s\n'
-AR='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar'
+AR='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar'
 lt_ar_flags='cr'
 AR_FLAGS='cr'
 archiver_list_spec='@'
 STRIP='strip'
-RANLIB='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib'
+RANLIB='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib'
 old_postinstall_cmds='chmod 644 $oldlib~$RANLIB $tool_oldlib'
 old_postuninstall_cmds=''
 old_archive_cmds='$AR $AR_FLAGS $oldlib$oldobjs~$RANLIB $tool_oldlib'
 lock_old_archive_extraction='no'
-CC='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
-CFLAGS='--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
+CC='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+CFLAGS='--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
 compiler='g++'
 GCC='yes'
 lt_cv_sys_global_symbol_pipe=''
@@ -659,7 +659,7 @@ postuninstall_cmds=''
 finish_cmds=''
 finish_eval=''
 hardcode_into_libs='no'
-sys_lib_search_path_spec='/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22 /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/lib/wasm32-unknown-wasip1 /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1/noeh /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1 '
+sys_lib_search_path_spec='/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22 /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/lib/wasm32-unknown-wasip1 /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1/noeh /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1 '
 configure_time_dlsearch_path='/lib /usr/lib'
 configure_time_lt_sys_library_path=''
 hardcode_action='immediate'
@@ -723,9 +723,9 @@ predeps_CXX=''
 postdeps_CXX='-lstdc++ -lm -lgcc_s -lc -lgcc_s'
 compiler_lib_search_path_CXX='-L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib'
 
-LTCC='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
-LTCFLAGS='--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
-compiler='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+LTCC='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+LTCFLAGS='--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
+compiler='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
 
 # A function that is used when there is no print builtin or printf.
 func_fallback_echo ()
@@ -759,7 +759,7 @@ for var in reload_cmds old_postinstall_cmds old_postuninstall_cmds old_archive_c
     esac
 done
 
-ac_aux_dir='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../../build-aux/'
+ac_aux_dir='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../../build-aux/'
 
 # See if we are running on zsh, and set the options that allow our
 # commands through without removal of \ escapes INIT.
@@ -776,7 +776,7 @@ fi
 
 
 enable_libtool_hack='yes'
-ac_aux_dir='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../../build-aux/'
+ac_aux_dir='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../../build-aux/'
 
 
 cxxld_sh=''
@@ -882,12 +882,12 @@ S["SYNCTEX_FALSE"]=""
 S["SYNCTEX_TRUE"]="#"
 S["SYNCTEX_LT_VERSINFO"]="2:0:0"
 S["SYNCTEXVERSION"]="2.0.0"
-S["OTANGLE"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/otangle"
-S["TIE"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/tie"
-S["CTANGLE"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle"
-S["CTANGLEBOOT"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle"
-S["TANGLE"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/tangle"
-S["TANGLEBOOT"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/tangle"
+S["OTANGLE"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/otangle"
+S["TIE"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/tie"
+S["CTANGLE"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle"
+S["CTANGLEBOOT"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle"
+S["TANGLE"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/tangle"
+S["TANGLEBOOT"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/tangle"
 S["KPATHSEA_PATHS_H"]="${top_builddir}/.."
 S["XETEX_MACOSX_FALSE"]=""
 S["XETEX_MACOSX_TRUE"]="#"
@@ -904,97 +904,97 @@ S["HARFBUZZ_RULE"]="# Rebuild libharfbuzz\n"\
 "${top_builddir}/../../libs/harfbuzz/include/hb.h:\n"\
 "	cd ${top_builddir}/../../libs/harfbuzz && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["HARFBUZZ_DEPEND"]="${top_builddir}/../../libs/harfbuzz/libharfbuzz.a"
-S["HARFBUZZ_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/harfbuzz/libharfbuzz.a"
-S["HARFBUZZ_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/harfbuzz/include"
+S["HARFBUZZ_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/harfbuzz/libharfbuzz.a"
+S["HARFBUZZ_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/harfbuzz/include"
 S["GRAPHITE2_RULE"]="# Rebuild libgraphite2\n"\
 "$(GRAPHITE2_DEPEND): ${top_builddir}/../../libs/graphite2/include/graphite2/Font.h\n"\
 "	cd ${top_builddir}/../../libs/graphite2 && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/graphite2/include/graphite2/Font.h:\n"\
 "	cd ${top_builddir}/../../libs/graphite2 && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["GRAPHITE2_DEPEND"]="${top_builddir}/../../libs/graphite2/libgraphite2.a"
-S["GRAPHITE2_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/graphite2/libgraphite2.a"
-S["GRAPHITE2_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/graphite2/include -DGRAPHITE2_STATIC"
+S["GRAPHITE2_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/graphite2/libgraphite2.a"
+S["GRAPHITE2_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/graphite2/include -DGRAPHITE2_STATIC"
 S["TECKIT_RULE"]="# Rebuild libTECkit\n"\
 "$(TECKIT_DEPEND): ${top_builddir}/../../libs/teckit/include/teckit/TECkit_Common.h\n"\
 "	cd ${top_builddir}/../../libs/teckit && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/teckit/include/teckit/TECkit_Common.h:\n"\
 "	cd ${top_builddir}/../../libs/teckit && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["TECKIT_DEPEND"]="${top_builddir}/../../libs/teckit/libTECkit.a"
-S["TECKIT_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/teckit/libTECkit.a"
-S["TECKIT_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/teckit/include"
+S["TECKIT_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/teckit/libTECkit.a"
+S["TECKIT_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/teckit/include"
 S["ZZIPLIB_RULE"]="# Rebuild libzzip\n"\
 "$(ZZIPLIB_DEPEND): ${top_builddir}/../../libs/zziplib/include/zzip/zzip.h\n"\
 "	cd ${top_builddir}/../../libs/zziplib && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/zziplib/include/zzip/zzip.h:\n"\
 "	cd ${top_builddir}/../../libs/zziplib && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["ZZIPLIB_DEPEND"]="${top_builddir}/../../libs/zziplib/libzzip.a"
-S["ZZIPLIB_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zziplib/libzzip.a"
-S["ZZIPLIB_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zziplib/include"
+S["ZZIPLIB_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zziplib/libzzip.a"
+S["ZZIPLIB_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zziplib/include"
 S["XPDF_RULE"]="# Rebuild libxpdf\n"\
 "$(XPDF_DEPEND): ${top_builddir}/../../libs/xpdf/xpdf/Stream.h\n"\
 "	cd ${top_builddir}/../../libs/xpdf && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/xpdf/xpdf/Stream.h:\n"\
 "	cd ${top_builddir}/../../libs/xpdf && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["XPDF_DEPEND"]="${top_builddir}/../../libs/xpdf/libxpdf.a"
-S["XPDF_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/xpdf/libxpdf.a"
-S["XPDF_INCLUDES"]="-DPDF_PARSER_ONLY -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/xpdf -I/home/haibib/fix-project/fix-compatibility-test"\
-"s/pdflatex/wasi-build/libs/xpdf/goo -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/xpdf/xpdf"
+S["XPDF_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/xpdf/libxpdf.a"
+S["XPDF_INCLUDES"]="-DPDF_PARSER_ONLY -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/xpdf -I/home/saibi/fix-project/fix-compatibility-tests/"\
+"pdflatex/wasi-build/libs/xpdf/goo -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/xpdf/xpdf"
 S["MPFI_RULE"]="# Rebuild libmpfi\n"\
 "$(MPFI_DEPEND): ${top_builddir}/../../libs/mpfi/include/mpfi.h\n"\
 "	cd ${top_builddir}/../../libs/mpfi && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/mpfi/include/mpfi.h:\n"\
 "	cd ${top_builddir}/../../libs/mpfi && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["MPFI_DEPEND"]="${top_builddir}/../../libs/mpfi/libmpfi.a"
-S["MPFI_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfi/libmpfi.a"
-S["MPFI_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfi/include"
+S["MPFI_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfi/libmpfi.a"
+S["MPFI_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfi/include"
 S["MPFR_RULE"]="# Rebuild libmpfr\n"\
 "$(MPFR_DEPEND): ${top_builddir}/../../libs/mpfr/include/mpfr.h\n"\
 "	cd ${top_builddir}/../../libs/mpfr && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/mpfr/include/mpfr.h:\n"\
 "	cd ${top_builddir}/../../libs/mpfr && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["MPFR_DEPEND"]="${top_builddir}/../../libs/mpfr/libmpfr.a"
-S["MPFR_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfr/libmpfr.a"
-S["MPFR_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfr/include"
+S["MPFR_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfr/libmpfr.a"
+S["MPFR_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/mpfr/include"
 S["GMP_RULE"]="# Rebuild libgmp\n"\
 "$(GMP_DEPEND): ${top_builddir}/../../libs/gmp/include/gmp.h\n"\
 "	cd ${top_builddir}/../../libs/gmp && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/gmp/include/gmp.h:\n"\
 "	cd ${top_builddir}/../../libs/gmp && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["GMP_DEPEND"]="${top_builddir}/../../libs/gmp/libgmp.a"
-S["GMP_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/gmp/libgmp.a"
-S["GMP_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/gmp/include"
+S["GMP_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/gmp/libgmp.a"
+S["GMP_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/gmp/include"
 S["POTRACE_RULE"]="# Rebuild libpotrace\n"\
 "$(POTRACE_DEPEND): ${top_builddir}/../../libs/potrace/include/potrace.h\n"\
 "	cd ${top_builddir}/../../libs/potrace && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/potrace/include/potrace.h:\n"\
 "	cd ${top_builddir}/../../libs/potrace && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["POTRACE_DEPEND"]="${top_builddir}/../../libs/potrace/libpotrace.a"
-S["POTRACE_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/libpotrace.a"
-S["POTRACE_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/include"
+S["POTRACE_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/libpotrace.a"
+S["POTRACE_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/include"
 S["CAIRO_RULE"]="# Rebuild libcairo\n"\
 "$(CAIRO_DEPEND): ${top_builddir}/../../libs/cairo/cairo/cairo.h\n"\
 "	cd ${top_builddir}/../../libs/cairo && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/cairo/cairo/cairo.h:\n"\
 "	cd ${top_builddir}/../../libs/cairo && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["CAIRO_DEPEND"]="${top_builddir}/../../libs/cairo/libcairo.a"
-S["CAIRO_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/cairo/libcairo.a"
-S["CAIRO_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/cairo/cairo"
+S["CAIRO_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/cairo/libcairo.a"
+S["CAIRO_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/cairo/cairo"
 S["PIXMAN_RULE"]="# Rebuild libpixman\n"\
 "$(PIXMAN_DEPEND): ${top_builddir}/../../libs/pixman/include/pixman.h\n"\
 "	cd ${top_builddir}/../../libs/pixman && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/pixman/include/pixman.h:\n"\
 "	cd ${top_builddir}/../../libs/pixman && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["PIXMAN_DEPEND"]="${top_builddir}/../../libs/pixman/libpixman.a"
-S["PIXMAN_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pixman/libpixman.a"
-S["PIXMAN_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pixman/include"
+S["PIXMAN_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pixman/libpixman.a"
+S["PIXMAN_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pixman/include"
 S["FREETYPE2_RULE"]="# Rebuild libfreetype\n"\
 "$(FREETYPE2_DEPEND): ${top_builddir}/../../libs/freetype2/freetype2/ft2build.h\n"\
 "	cd ${top_builddir}/../../libs/freetype2 && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/freetype2/freetype2/ft2build.h:\n"\
 "	cd ${top_builddir}/../../libs/freetype2 && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["FREETYPE2_DEPEND"]="${top_builddir}/../../libs/freetype2/libfreetype.a"
-S["FREETYPE2_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/libfreetype.a"
-S["FREETYPE2_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/freetype2"
+S["FREETYPE2_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/libfreetype.a"
+S["FREETYPE2_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/freetype2"
 S["FT2_CONFIG"]=""
 S["LIBPNG_RULE"]="# Rebuild libpng\n"\
 "$(LIBPNG_DEPEND): ${top_builddir}/../../libs/libpng/include/png.h\n"\
@@ -1002,64 +1002,64 @@ S["LIBPNG_RULE"]="# Rebuild libpng\n"\
 "${top_builddir}/../../libs/libpng/include/png.h:\n"\
 "	cd ${top_builddir}/../../libs/libpng && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["LIBPNG_DEPEND"]="${top_builddir}/../../libs/libpng/libpng.a"
-S["LIBPNG_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpng/libpng.a"
-S["LIBPNG_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpng/include"
+S["LIBPNG_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpng/libpng.a"
+S["LIBPNG_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/libpng/include"
 S["LUAJIT_RULE"]="# Rebuild libtexluajit\n"\
 "$(LUAJIT_DEPEND): ${top_builddir}/../../libs/luajit/include/luajit.h\n"\
 "	cd ${top_builddir}/../../libs/luajit && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/luajit/include/luajit.h:\n"\
 "	cd ${top_builddir}/../../libs/luajit && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["LUAJIT_DEPEND"]="${top_builddir}/../../libs/luajit/libtexluajit.la"
-S["LUAJIT_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/luajit/libtexluajit.la"
-S["LUAJIT_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/luajit/include"
+S["LUAJIT_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/luajit/libtexluajit.la"
+S["LUAJIT_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/luajit/include"
 S["LUA52_RULE"]="# Rebuild libtexlua52\n"\
 "$(LUA52_DEPEND): ${top_builddir}/../../libs/lua52/include/lua.h\n"\
 "	cd ${top_builddir}/../../libs/lua52 && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/lua52/include/lua.h:\n"\
 "	cd ${top_builddir}/../../libs/lua52 && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["LUA52_DEPEND"]="${top_builddir}/../../libs/lua52/libtexlua52.la"
-S["LUA52_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua52/libtexlua52.la"
-S["LUA52_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua52/include"
+S["LUA52_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua52/libtexlua52.la"
+S["LUA52_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua52/include"
 S["LUA53_RULE"]="# Rebuild libtexlua53\n"\
 "$(LUA53_DEPEND): ${top_builddir}/../../libs/lua53/include/lua.h\n"\
 "	cd ${top_builddir}/../../libs/lua53 && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/lua53/include/lua.h:\n"\
 "	cd ${top_builddir}/../../libs/lua53 && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["LUA53_DEPEND"]="${top_builddir}/../../libs/lua53/libtexlua53.la"
-S["LUA53_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua53/libtexlua53.la"
-S["LUA53_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua53/include"
+S["LUA53_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua53/libtexlua53.la"
+S["LUA53_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/lua53/include"
 S["ZLIB_RULE"]="# Rebuild libz\n"\
 "$(ZLIB_DEPEND): ${top_builddir}/../../libs/zlib/include/zconf.h\n"\
 "	cd ${top_builddir}/../../libs/zlib && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/zlib/include/zconf.h:\n"\
 "	cd ${top_builddir}/../../libs/zlib && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["ZLIB_DEPEND"]="${top_builddir}/../../libs/zlib/libz.a"
-S["ZLIB_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/libz.a"
-S["ZLIB_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/include"
+S["ZLIB_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/libz.a"
+S["ZLIB_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/include"
 S["PPLIB_RULE"]="# Rebuild libpplib\n"\
 "$(PPLIB_DEPEND): ${top_builddir}/../../libs/pplib/include/pplib.h\n"\
 "	cd ${top_builddir}/../../libs/pplib && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../../libs/pplib/include/pplib.h:\n"\
 "	cd ${top_builddir}/../../libs/pplib && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["PPLIB_DEPEND"]="${top_builddir}/../../libs/pplib/libpplib.a"
-S["PPLIB_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pplib/libpplib.a"
-S["PPLIB_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pplib/include"
+S["PPLIB_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pplib/libpplib.a"
+S["PPLIB_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/pplib/include"
 S["PTEXENC_RULE"]="# Rebuild libptexenc\n"\
 "$(PTEXENC_DEPEND): ${top_srcdir}/../ptexenc/*.c ${top_srcdir}/../ptexenc/ptexenc/*.h\n"\
 "	cd ${top_builddir}/../ptexenc && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["PTEXENC_DEPEND"]="${top_builddir}/../ptexenc/libptexenc.la"
-S["PTEXENC_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/ptexenc/libptexenc.la"
-S["PTEXENC_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/ptexenc -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texl"\
-"ive-source/texk/ptexenc"
+S["PTEXENC_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/ptexenc/libptexenc.la"
+S["PTEXENC_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/ptexenc -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texliv"\
+"e-source/texk/ptexenc"
 S["KPATHSEA_RULE"]="# Rebuild libkpathsea\n"\
 "$(KPATHSEA_DEPEND): ${top_srcdir}/../kpathsea/*.[ch] ${top_builddir}/../kpathsea/paths.h\n"\
 "	cd ${top_builddir}/../kpathsea && $(MAKE) $(AM_MAKEFLAGS) rebuild\n"\
 "${top_builddir}/../kpathsea/paths.h:\n"\
 "	cd ${top_builddir}/../kpathsea && $(MAKE) $(AM_MAKEFLAGS) rebuild"
 S["KPATHSEA_DEPEND"]="${top_builddir}/../kpathsea/libkpathsea.la"
-S["KPATHSEA_LIBS"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/libkpathsea.la"
-S["KPATHSEA_INCLUDES"]="-I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-sour"\
-"ce/texk -DNO_DEBUG"
+S["KPATHSEA_LIBS"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/libkpathsea.la"
+S["KPATHSEA_INCLUDES"]="-I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source"\
+"/texk -DNO_DEBUG"
 S["PKG_CONFIG"]="pkg-config"
 S["LEXLIB"]=""
 S["LEX_OUTPUT_ROOT"]="lex.yy"
@@ -1081,7 +1081,7 @@ S["X_EXTRA_LIBS"]=""
 S["X_LIBS"]=""
 S["X_PRE_LIBS"]=""
 S["X_CFLAGS"]=""
-S["CPP"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23 -E"
+S["CPP"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23 -E"
 S["XMKMF"]=""
 S["MFLUAJITN_FALSE"]=""
 S["MFLUAJITN_TRUE"]="#"
@@ -1181,7 +1181,7 @@ S["LIPO"]=""
 S["NMEDIT"]=""
 S["DSYMUTIL"]=""
 S["MANIFEST_TOOL"]=":"
-S["RANLIB"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib"
+S["RANLIB"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib"
 S["FILECMD"]="file"
 S["LN_S"]="ln -s"
 S["NM"]="nm"
@@ -1205,7 +1205,7 @@ S["OBJDUMP"]="objdump"
 S["DLLTOOL"]="false"
 S["AS"]="as"
 S["ac_ct_AR"]=""
-S["AR"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar"
+S["AR"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar"
 S["WARNING_CFLAGS"]="-Wimplicit -Wreturn-type"
 S["MAINT"]="#"
 S["MAINTAINER_MODE_FALSE"]=""
@@ -1238,12 +1238,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh"
-S["MAKEINFO"]="${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo"
-S["AUTOHEADER"]="${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader"
-S["AUTOMAKE"]="${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18"
-S["AUTOCONF"]="${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf"
-S["ACLOCAL"]="${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18"
+S["install_sh"]="${SHELL} /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh"
+S["MAKEINFO"]="${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo"
+S["AUTOHEADER"]="${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader"
+S["AUTOMAKE"]="${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18"
+S["AUTOCONF"]="${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf"
+S["ACLOCAL"]="${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18"
 S["VERSION"]="2027/dev"
 S["PACKAGE"]="web2c"
 S["CYGPATH_W"]="echo"
@@ -1256,10 +1256,10 @@ S["EXEEXT"]=""
 S["ac_ct_CC"]=""
 S["CPPFLAGS"]=""
 S["LDFLAGS"]="-lwasi-emulated-signal -lwasi-emulated-getpid"
-S["CFLAGS"]="--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/h"\
-"ome/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-c"\
-"ompatibility/wasi-compatibility.h"
-S["CC"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23"
+S["CFLAGS"]="--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/ho"\
+"me/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-comp"\
+"atibility/wasi-compatibility.h"
+S["CC"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23"
 S["WEB2CVERSION"]="2027/dev"
 S["ECHO_T"]=""
 S["ECHO_N"]="-n"
@@ -1290,7 +1290,7 @@ S["libexecdir"]="${exec_prefix}/libexec"
 S["sbindir"]="${exec_prefix}/sbin"
 S["bindir"]="${exec_prefix}/bin/wasm32-wasip1"
 S["program_transform_name"]="s,x,x,"
-S["prefix"]="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install"
+S["prefix"]="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install"
 S["exec_prefix"]="${prefix}"
 S["PACKAGE_URL"]=""
 S["PACKAGE_BUGREPORT"]="tex-k@tug.org"

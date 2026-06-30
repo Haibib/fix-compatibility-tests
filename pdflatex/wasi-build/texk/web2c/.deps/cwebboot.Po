@@ -1,279 +1,279 @@
 cwebboot.o: cwebboot.c \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdio.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/features.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/alltypes.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timeval.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_suseconds_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_time_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timespec.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_iovec.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stddef.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_size_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_null.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__seek.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/types.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clockid_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clock_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/endian.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/select.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_sigset_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__fd_set.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_fd_set.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_FD_SETSIZE.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/errno.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno_values.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/ctype.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdbool.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdbool.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_header_macro.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_ptrdiff_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_wchar_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_nullptr_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_unreachable.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_max_align_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_offsetof.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdint.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdint.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stdint.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdlib.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_malloc.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_stdlib.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/alloca.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/string.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_string.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_memcpy.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/strings.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/kpathsea.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/config.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/c-auto.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-std.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/math.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdarg.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_header_macro.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___gnuc_va_list.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_list.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_arg.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___va_copy.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_copy.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-unistd.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/systypes.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/unistd.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_unistd.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/inttypes.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/inttypes.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_inttypes.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/posix.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-memstr.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-errno.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-minmax.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-limits.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/limits.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/limits.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/limits.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_PAGESIZE.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/float.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/float.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_header_macro.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_float.h \
-  /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_infinity_nan.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/assert.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-proto.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/debug.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/lib.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/types.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/simpletypes.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-llist.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/hash.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-list.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/progname.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/paths.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/absolute.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-dir.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/dirent.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_dirent.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_dirent.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_ino_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_DIR.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/dirent.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-fopen.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/fcntl.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_fcntl.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__mode_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/fcntl.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-namemx.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathch.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-ctype.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathmx.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-stat.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/stat.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stat.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_stat.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blkcnt_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blksize_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_dev_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_gid_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_mode_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_nlink_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_off_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_uid_t.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_sys_stat.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/cnf.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/concatn.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/expand.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/getopt.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/line.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/magstep.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/pathsearch.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/proginit.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/readable.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-glyph.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-file.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-hush.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-make.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/variable.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/version.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/w2c/config.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdio.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/features.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/alltypes.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timeval.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_suseconds_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_time_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timespec.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_iovec.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stddef.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_size_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_null.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__seek.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/types.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clockid_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clock_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/endian.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/select.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_sigset_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__fd_set.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_fd_set.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_FD_SETSIZE.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/errno.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno_values.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/ctype.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdbool.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdbool.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_header_macro.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_ptrdiff_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_wchar_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_nullptr_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_unreachable.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_max_align_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_offsetof.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdint.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdint.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stdint.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdlib.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_malloc.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_stdlib.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/alloca.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/string.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_string.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_memcpy.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/strings.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/kpathsea.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/config.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/c-auto.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-std.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/math.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdarg.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_header_macro.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___gnuc_va_list.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_list.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_arg.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___va_copy.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_copy.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-unistd.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/systypes.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/unistd.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_unistd.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/inttypes.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/inttypes.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_inttypes.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/posix.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-memstr.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-errno.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-minmax.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-limits.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/limits.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/limits.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/limits.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_PAGESIZE.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/float.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/float.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_header_macro.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_float.h \
+  /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_infinity_nan.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/assert.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-proto.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/debug.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/lib.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/types.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/simpletypes.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-llist.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/hash.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-list.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/progname.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/paths.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/absolute.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-dir.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/dirent.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_dirent.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_dirent.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_ino_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_DIR.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/dirent.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-fopen.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/fcntl.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_fcntl.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__mode_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/fcntl.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-namemx.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathch.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-ctype.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathmx.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-stat.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/stat.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stat.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_stat.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blkcnt_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blksize_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_dev_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_gid_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_mode_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_nlink_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_off_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_uid_t.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_sys_stat.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/cnf.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/concatn.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/expand.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/getopt.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/line.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/magstep.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/pathsearch.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/proginit.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/readable.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-glyph.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-file.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-hush.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-make.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/variable.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/version.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/w2c/config.h \
   w2c/c-auto.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/lib/lib.h \
-  /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/help.h
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdio.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/features.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/alltypes.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timeval.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_suseconds_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_time_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timespec.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_iovec.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stddef.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_size_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_null.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__seek.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/types.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clockid_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clock_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/endian.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/select.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_sigset_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__fd_set.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_fd_set.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_FD_SETSIZE.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/errno.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno_values.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/ctype.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdbool.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdbool.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_header_macro.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_ptrdiff_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_wchar_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_nullptr_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_unreachable.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_max_align_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_offsetof.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdint.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdint.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stdint.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdlib.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_malloc.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_stdlib.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/alloca.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/string.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_string.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_memcpy.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/strings.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/kpathsea.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/config.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/c-auto.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-std.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/math.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdarg.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_header_macro.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___gnuc_va_list.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_list.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_arg.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___va_copy.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_copy.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-unistd.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/systypes.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/unistd.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_unistd.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/inttypes.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/inttypes.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_inttypes.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/posix.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-memstr.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-errno.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-minmax.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-limits.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/limits.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/limits.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/limits.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_PAGESIZE.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/float.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/float.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_header_macro.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_float.h:
-/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_infinity_nan.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/assert.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-proto.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/debug.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/lib.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/types.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/simpletypes.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-llist.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/hash.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-list.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/progname.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/paths.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/absolute.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-dir.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/dirent.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_dirent.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_dirent.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_ino_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_DIR.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/dirent.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-fopen.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/fcntl.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_fcntl.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__mode_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/fcntl.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-namemx.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathch.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-ctype.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathmx.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-stat.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/stat.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stat.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_stat.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blkcnt_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blksize_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_dev_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_gid_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_mode_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_nlink_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_off_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_uid_t.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_sys_stat.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/cnf.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/concatn.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/expand.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/getopt.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/line.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/magstep.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/pathsearch.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/proginit.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/readable.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-glyph.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-file.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-hush.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-make.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/variable.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/version.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/w2c/config.h:
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/lib/lib.h \
+  /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/help.h
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdio.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/features.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/alltypes.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timeval.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_suseconds_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_time_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_timespec.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_iovec.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stddef.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_size_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_null.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__seek.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/types.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clockid_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_clock_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/endian.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/select.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_sigset_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__fd_set.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_fd_set.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_FD_SETSIZE.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/errno.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__errno_values.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/ctype.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdbool.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdbool.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_header_macro.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_ptrdiff_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_wchar_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_nullptr_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_unreachable.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_max_align_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stddef_offsetof.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdint.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdint.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stdint.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/stdlib.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_malloc.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_stdlib.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/alloca.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/string.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_string.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__functions_memcpy.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/strings.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/kpathsea.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/config.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/c-auto.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-std.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/math.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/stdarg.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_header_macro.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___gnuc_va_list.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_list.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_arg.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg___va_copy.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__stdarg_va_copy.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-unistd.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/systypes.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/unistd.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_unistd.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/inttypes.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/inttypes.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_inttypes.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/posix.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-memstr.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-errno.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-minmax.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-limits.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/limits.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/limits.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/limits.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__macro_PAGESIZE.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/float.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/float.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_header_macro.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_float.h:
+/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/include/__float_infinity_nan.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/assert.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-proto.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/debug.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/lib.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/types.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/simpletypes.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-llist.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/hash.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/str-list.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/progname.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/paths.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/absolute.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-dir.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/dirent.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_dirent.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_dirent.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_ino_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_DIR.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/dirent.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-fopen.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/fcntl.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_fcntl.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__mode_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/fcntl.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-namemx.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathch.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-ctype.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-pathmx.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/c-stat.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/sys/stat.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/bits/stat.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__struct_stat.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blkcnt_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_blksize_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_dev_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_gid_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_mode_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_nlink_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_off_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__typedef_uid_t.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/include/wasm32-wasip1/__header_sys_stat.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/cnf.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/concatn.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/expand.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/getopt.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/line.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/magstep.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/pathsearch.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/proginit.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/readable.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-glyph.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-file.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-hush.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/tex-make.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/variable.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/kpathsea/version.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/w2c/config.h:
 w2c/c-auto.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/lib/lib.h:
-/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/help.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/lib/lib.h:
+/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/help.h:

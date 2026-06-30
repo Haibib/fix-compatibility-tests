@@ -147,7 +147,7 @@ want_nocaseglob="no"
 sharedlib_from_linklib_cmd="printf %s\\n"
 
 # The archiver.
-AR="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar"
+AR="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar"
 
 # Flags to create an archive (by configure).
 lt_ar_flags=cr
@@ -162,7 +162,7 @@ archiver_list_spec="@"
 STRIP="strip"
 
 # Commands used to install an old-style archive.
-RANLIB="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib"
+RANLIB="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib"
 old_postinstall_cmds="chmod 644 \$oldlib~\$RANLIB \$tool_oldlib"
 old_postuninstall_cmds=""
 
@@ -170,10 +170,10 @@ old_postuninstall_cmds=""
 lock_old_archive_extraction=no
 
 # A C compiler.
-LTCC="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23 -Wimplicit -Wreturn-type"
+LTCC="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23 -Wimplicit -Wreturn-type"
 
 # LTCC compiler flags.
-LTCFLAGS="--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h"
+LTCFLAGS="--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h"
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe=""
@@ -290,7 +290,7 @@ finish_eval=""
 hardcode_into_libs=no
 
 # Compile-time system search path for libraries.
-sys_lib_search_path_spec="/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22 /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/lib/wasm32-unknown-wasip1 /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1/noeh /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1 "
+sys_lib_search_path_spec="/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22 /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/lib/wasm32-unknown-wasip1 /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1/noeh /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1 "
 
 # Detected run-time system search path for libraries.
 sys_lib_dlsearch_path_spec="/lib /usr/lib"
@@ -323,7 +323,7 @@ reload_cmds="\$LD\$reload_flag -o \$output\$reload_objs"
 old_archive_cmds="\$AR \$AR_FLAGS \$oldlib\$oldobjs~\$RANLIB \$tool_oldlib"
 
 # A language specific compiler.
-CC="/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23"
+CC="/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23"
 
 # Is the compiler the GNU compiler?
 with_gcc=yes

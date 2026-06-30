@@ -1,8 +1,8 @@
 /*1:*/
-#line 66 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 66 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*5:*/
-#line 53 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 53 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 #include <ctype.h>  
 #include <stdbool.h>  
@@ -15,18 +15,18 @@
 #ifndef HAVE_GETTEXT
 #define HAVE_GETTEXT 0
 #endif
-#line 65 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 65 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 #if HAVE_GETTEXT
 #include <libintl.h> 
 #else
-#line 69 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 69 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 #define gettext(a) a
 #endif
-#line 71 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 71 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 /*:5*/
-#line 67 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 67 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 #define banner "This is CTANGLE, Version 4.12.2"
 #define _(s) gettext(s)
@@ -137,10 +137,10 @@ app_repl(a%0400)
 #define keep_digit_separators flags['k']
 #define max_banner 50
 
-#line 68 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 68 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*3:*/
-#line 32 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 32 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 typedef uint8_t eight_bits;
 typedef uint16_t sixteen_bits;
@@ -151,7 +151,7 @@ extern cweb program;
 extern int phase;
 
 /*:3*//*6:*/
-#line 108 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 108 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern char section_text[];
 extern char*section_text_end;
@@ -159,7 +159,7 @@ extern char*id_first;
 extern char*id_loc;
 
 /*:6*//*7:*/
-#line 126 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 126 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern char buffer[];
 extern char*buffer_end;
@@ -167,7 +167,7 @@ extern char*loc;
 extern char*limit;
 
 /*:7*//*8:*/
-#line 143 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 143 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int include_depth;
 extern FILE*file[];
@@ -184,7 +184,7 @@ extern bool changing;
 extern bool web_file_open;
 
 /*:8*//*10:*/
-#line 164 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 164 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern sixteen_bits section_count;
 extern bool changed_section[];
@@ -192,7 +192,7 @@ extern bool change_pending;
 extern bool print_where;
 
 /*:10*//*11:*/
-#line 179 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 179 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 typedef struct name_info{
 char*byte_start;
@@ -217,12 +217,12 @@ extern hash_pointer hash_end;
 extern hash_pointer hash_ptr;
 
 /*:11*//*13:*/
-#line 224 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 224 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int history;
 
 /*:13*//*15:*/
-#line 245 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 245 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int argc;
 extern char**argv;
@@ -235,7 +235,7 @@ extern bool flags[];
 extern const char*use_language;
 
 /*:15*//*16:*/
-#line 261 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 261 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern FILE*C_file;
 extern FILE*tex_file;
@@ -245,15 +245,15 @@ extern FILE*active_file;
 extern FILE*check_file;
 
 /*:16*//*116:*/
-#line 539 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 539 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 extern char cb_banner[];
 
 /*:116*/
-#line 69 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 69 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*19:*/
-#line 122 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 122 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 typedef struct{
 eight_bits*tok_start;
@@ -261,9 +261,9 @@ sixteen_bits text_link;
 }text;
 typedef text*text_pointer;
 
-#line 66 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 66 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 /*:19*//*31:*/
-#line 267 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 267 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 typedef struct{
 eight_bits*byte_field;
@@ -274,10 +274,10 @@ sixteen_bits section_field;
 typedef output_state*stack_pointer;
 
 /*:31*/
-#line 70 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 70 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*20:*/
-#line 131 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 131 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static text text_info[max_texts];
 static text_pointer text_info_end= text_info+max_texts-1;
@@ -287,30 +287,30 @@ static eight_bits*tok_mem_end= tok_mem+max_toks-1;
 static eight_bits*tok_ptr;
 
 /*:20*//*26:*/
-#line 196 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 196 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static text_pointer last_unnamed;
 
 /*:26*//*32:*/
-#line 285 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 285 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static output_state stack[stack_size+2];
 static stack_pointer stack_end= stack+stack_size;
 static stack_pointer stack_ptr;
 
 /*:32*//*38:*/
-#line 367 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 367 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static int cur_val;
 
 /*:38*//*42:*/
-#line 457 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 457 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static eight_bits out_state;
 static bool protect;
 
 /*:42*//*45:*/
-#line 488 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 488 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static name_pointer output_files[max_files];
 static name_pointer*cur_out_file,*end_output_files,*an_output_file;
@@ -318,54 +318,54 @@ static char cur_section_name_char;
 static char output_file_name[longest_name+1];
 
 /*:45*//*53:*/
-#line 584 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 584 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static bool output_defs_seen= false;
 
 /*:53*//*57:*/
-#line 694 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 694 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static char translit[0200][translit_length];
 
 /*:57*//*62:*/
-#line 770 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 770 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static eight_bits ccode[256]= {ignore};
 
 /*:62*//*66:*/
-#line 827 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 827 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static bool comment_continues= false;
 
 /*:66*//*68:*/
-#line 864 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 864 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static name_pointer cur_section_name;
 static bool no_where;
 
 /*:68*//*82:*/
-#line 1182 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1182 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static text_pointer cur_text;
 static eight_bits next_control;
 
 /*:82*/
-#line 71 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 71 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*4:*/
-#line 42 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 42 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern void common_init(void);
 
 /*:4*//*9:*/
-#line 158 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 158 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern bool get_line(void);
 extern void check_complete(void);
 extern void reset_input(void);
 
 /*:9*//*12:*/
-#line 202 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 202 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern name_pointer id_lookup(const char*,const char*,eight_bits);
 
@@ -379,7 +379,7 @@ extern bool names_match(name_pointer,const char*,size_t,eight_bits);
 extern void init_node(name_pointer);
 
 /*:12*//*14:*/
-#line 227 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
+#line 227 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/comm-w2c.h"
 
 extern int wrap_up(void);
 extern void err_print(const char*);
@@ -391,59 +391,59 @@ extern void cb_show_banner(void);
 extern void print_stats(void);
 
 /*:14*//*30:*/
-#line 242 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 242 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static void store_two_bytes(sixteen_bits);
 
 /*:30*//*37:*/
-#line 347 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 347 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void push_level(name_pointer);
 static void pop_level(bool);
 static void get_output(void);
 
 /*:37*//*44:*/
-#line 478 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 478 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static void flush_buffer(void);
 
 /*:44*//*49:*/
-#line 547 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 547 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void phase_two(void);
 static void output_defs(void);
 static void out_char(eight_bits);
 
 /*:49*//*65:*/
-#line 807 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 807 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static eight_bits skip_ahead(void);
 static bool skip_comment(bool);
 
 /*:65*//*70:*/
-#line 915 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 915 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static eight_bits get_next(void);
 
 /*:70*//*84:*/
-#line 1208 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1208 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static void scan_repl(eight_bits);
 
 /*:84*//*91:*/
-#line 1399 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1399 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static void scan_section(void);
 
 /*:91*//*99:*/
-#line 1476 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1476 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static void phase_one(void);
 
 /*:99*//*101:*/
-#line 1509 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1509 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 static void skip_limbo(void);
 
 /*:101*/
-#line 72 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 72 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 
 /*:1*//*2:*/
-#line 81 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 81 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 int main(
 int ac,
@@ -452,37 +452,37 @@ char**av)
 argc= ac;argv= av;
 program= ctangle;
 /*21:*/
-#line 139 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 139 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 text_info->tok_start= tok_ptr= tok_mem;
 text_ptr= text_info+1;text_ptr->tok_start= tok_mem;
 
 
 /*:21*//*23:*/
-#line 149 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 149 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 init_node(name_dir);
 
 /*:23*//*27:*/
-#line 199 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 199 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 last_unnamed= text_info;text_info->text_link= macro;
 
 /*:27*//*46:*/
-#line 498 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 498 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 cur_out_file= end_output_files= output_files+max_files;
 
 /*:46*//*58:*/
-#line 697 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 697 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {int i;
 for(i= 0;i<0200;i++)
 snprintf(translit[i],translit_length,"X%02X",(unsigned int)(0200+i));
 }
 
-#line 166 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 166 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 /*:58*//*63:*/
-#line 773 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 773 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 ccode[' ']= ccode['\t']= ccode['\n']= ccode['\v']= ccode['\r']= ccode['\f']
 = ccode['*']= new_section;
@@ -499,28 +499,28 @@ ccode['<']= ccode['(']= section_name;
 ccode['\'']= ord;
 
 /*:63*//*78:*/
-#line 1103 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1103 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 section_text[0]= ' ';
 
 /*:78*//*117:*/
-#line 542 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 542 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 strncpy(cb_banner,banner,max_banner-1);
 
 /*:117*/
-#line 88 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 88 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 common_init();
-#line 53 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 53 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(show_banner)cb_show_banner();
-#line 91 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 91 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 phase_one();
 phase_two();
 return wrap_up();
 }
 
 /*:2*//*24:*/
-#line 155 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 155 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 bool names_match(
 name_pointer p,
@@ -532,7 +532,7 @@ return length(p)==l&&strncmp(first,p->byte_start,l)==0;
 }
 
 /*:24*//*25:*/
-#line 168 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 168 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 void
 init_node(
@@ -542,29 +542,29 @@ node->equiv= (void*)text_info;
 }
 
 /*:25*//*29:*/
-#line 232 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 232 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 store_two_bytes(
 sixteen_bits x)
 {
-#line 73 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 73 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(tok_ptr+2> tok_mem_end)overflow(_("token"));
-#line 238 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 238 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 *tok_ptr++= x>>8;
 *tok_ptr++= x&0377;
 }
 
 /*:29*//*35:*/
-#line 315 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 315 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 push_level(
 name_pointer p)
 {
-#line 79 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 79 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(stack_ptr==stack_end)overflow(_("stack"));
-#line 321 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 321 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 *stack_ptr= cur_state;
 stack_ptr++;
 if(p!=NULL){
@@ -575,7 +575,7 @@ cur_byte= cur_repl->tok_start;cur_section= 0;
 
 
 /*:35*//*36:*/
-#line 334 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 334 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 pop_level(
@@ -590,7 +590,7 @@ if(stack_ptr> stack)cur_state= *stack_ptr;
 }
 
 /*:36*//*39:*/
-#line 374 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 374 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 get_output(void)
@@ -613,15 +613,15 @@ switch(a/024000){
 case 0:cur_val= (int)a;out_char(identifier);break;
 case 1:if(a==output_defs_flag)output_defs();
 else/*40:*/
-#line 407 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 407 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 a-= 024000;
 if((a+name_dir)->equiv!=(void*)text_info)push_level(a+name_dir);
 else if(a!=0){
-#line 85 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 85 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 printf("%s",_("\n! Not present: <"));
-#line 413 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 413 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 print_section_name(a+name_dir);err_print(">");
 
 }
@@ -629,7 +629,7 @@ goto restart;
 }
 
 /*:40*/
-#line 395 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 395 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 break;
 default:cur_val= (int)a-050000;
@@ -640,7 +640,7 @@ out_char(section_number);
 }
 
 /*:39*//*43:*/
-#line 465 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 465 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 flush_buffer(void)
@@ -655,7 +655,7 @@ cur_line++;
 }
 
 /*:43*//*48:*/
-#line 517 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 517 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 phase_two(void){
@@ -663,43 +663,43 @@ phase= 2;
 web_file_open= false;
 cur_line= 1;
 /*33:*/
-#line 296 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 296 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 stack_ptr= stack+1;cur_name= name_dir;
 cur_repl= text_info->text_link+text_info;
 cur_byte= cur_repl->tok_start;cur_section= 0;
 
 /*:33*/
-#line 523 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 523 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*52:*/
-#line 580 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 580 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(!output_defs_seen)
 output_defs();
 
 /*:52*/
-#line 524 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 524 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(text_info->text_link==macro&&cur_out_file==end_output_files){
-#line 97 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 97 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 printf("%s",_("\n! No program text was specified."));mark_harmless();
-#line 527 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 527 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 else{
 if(show_progress){
 printf(cur_out_file==end_output_files?
-#line 104 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 104 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 _("\nWriting the output file (%s):"):
 _("\nWriting the output files: (%s)"),C_file_name);
-#line 534 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 534 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 update_terminal();
 }
 if(text_info->text_link!=macro)
 /*51:*/
-#line 570 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 570 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 while(stack_ptr> stack)get_output();
@@ -707,19 +707,19 @@ flush_buffer();
 }
 
 /*:51*/
-#line 538 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 538 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*50:*/
-#line 129 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 129 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(check_for_change){
 fclose(C_file);C_file= NULL;
 /*106:*/
-#line 422 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 422 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if((C_file= fopen(C_file_name,"r"))!=NULL){
 /*107:*/
-#line 429 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 429 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 bool comparison= false;
 
@@ -728,7 +728,7 @@ fatal(_("! Cannot open output file "),check_file_name);
 
 
 /*108:*/
-#line 443 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 443 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 do{
 char x[BUFSIZ],y[BUFSIZ];
@@ -738,17 +738,17 @@ comparison= (x_size==y_size)&&!memcmp(x,y,x_size);
 }while(comparison&&!feof(C_file)&&!feof(check_file));
 
 /*:108*/
-#line 436 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 436 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 
 fclose(C_file);C_file= NULL;
 fclose(check_file);check_file= NULL;
 
 /*:107*/
-#line 424 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 424 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 /*109:*/
-#line 454 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 454 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(comparison)
 remove(check_file_name);
@@ -758,20 +758,20 @@ rename(check_file_name,C_file_name);
 }
 
 /*:109*/
-#line 425 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 425 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }else
 rename(check_file_name,C_file_name);
 
 /*:106*/
-#line 132 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 132 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }
 for(an_output_file= end_output_files;an_output_file> cur_out_file;){
 an_output_file--;
 sprint_section_name(output_file_name,*an_output_file);
 if(check_for_change)/*105:*/
-#line 413 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 413 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 {
 if((C_file= fopen(output_file_name,"a"))==NULL)
 fatal(_("! Cannot open output file "),output_file_name);
@@ -782,7 +782,7 @@ fatal(_("! Cannot open output file "),check_file_name);
 }
 
 /*:105*/
-#line 137 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 137 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 else{
 fclose(C_file);
@@ -793,17 +793,17 @@ fatal(_("! Cannot open output file "),output_file_name);
 if(show_progress){printf("\n(%s)",output_file_name);update_terminal();}
 cur_line= 1;
 /*34:*/
-#line 303 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 303 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 stack_ptr= stack+1;cur_name= *an_output_file;
 cur_repl= (text_pointer)cur_name->equiv;
 cur_byte= cur_repl->tok_start;
 
 /*:34*/
-#line 146 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 146 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 /*51:*/
-#line 570 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 570 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 while(stack_ptr> stack)get_output();
@@ -811,19 +811,19 @@ flush_buffer();
 }
 
 /*:51*/
-#line 147 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 147 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(check_for_change){
 fclose(C_file);C_file= NULL;
 /*110:*/
-#line 467 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 467 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(0==strcmp("/dev/stdout",output_file_name))
 /*112:*/
-#line 494 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 494 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 {
 /*115:*/
-#line 525 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 525 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 char in_buf[BUFSIZ+1];
 int in_size;
@@ -833,7 +833,7 @@ fatal(_("! Cannot open output file "),check_file_name);
 
 
 /*:115*/
-#line 495 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 495 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 do{
 in_size= fread(in_buf,sizeof(char),BUFSIZ,check_file);
@@ -842,7 +842,7 @@ fprintf(stdout,"%s",in_buf);
 }while(!feof(check_file));
 fclose(check_file);check_file= NULL;
 /*111:*/
-#line 484 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 484 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(comparison)
 remove(check_file_name);
@@ -852,19 +852,19 @@ rename(check_file_name,output_file_name);
 }
 
 /*:111*/
-#line 502 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 502 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }
 
 /*:112*/
-#line 469 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 469 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 else if(0==strcmp("/dev/stderr",output_file_name))
 /*113:*/
-#line 507 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 507 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 {
 /*115:*/
-#line 525 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 525 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 char in_buf[BUFSIZ+1];
 int in_size;
@@ -874,7 +874,7 @@ fatal(_("! Cannot open output file "),check_file_name);
 
 
 /*:115*/
-#line 508 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 508 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 do{
 in_size= fread(in_buf,sizeof(char),BUFSIZ,check_file);
@@ -883,7 +883,7 @@ fprintf(stderr,"%s",in_buf);
 }while(!feof(check_file));
 fclose(check_file);check_file= NULL;
 /*111:*/
-#line 484 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 484 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(comparison)
 remove(check_file_name);
@@ -893,20 +893,20 @@ rename(check_file_name,output_file_name);
 }
 
 /*:111*/
-#line 515 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 515 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }
 
 /*:113*/
-#line 471 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 471 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 else if(0==strcmp("/dev/null",output_file_name))
 /*114:*/
-#line 520 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 520 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 {
 bool comparison= true;
 /*111:*/
-#line 484 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 484 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(comparison)
 remove(check_file_name);
@@ -916,17 +916,17 @@ rename(check_file_name,output_file_name);
 }
 
 /*:111*/
-#line 522 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 522 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }
 
 /*:114*/
-#line 473 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 473 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 else{
 if((C_file= fopen(output_file_name,"r"))!=NULL){
 /*107:*/
-#line 429 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 429 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 bool comparison= false;
 
@@ -935,7 +935,7 @@ fatal(_("! Cannot open output file "),check_file_name);
 
 
 /*108:*/
-#line 443 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 443 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 do{
 char x[BUFSIZ],y[BUFSIZ];
@@ -945,17 +945,17 @@ comparison= (x_size==y_size)&&!memcmp(x,y,x_size);
 }while(comparison&&!feof(C_file)&&!feof(check_file));
 
 /*:108*/
-#line 436 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 436 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 
 fclose(C_file);C_file= NULL;
 fclose(check_file);check_file= NULL;
 
 /*:107*/
-#line 476 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 476 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 /*111:*/
-#line 484 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 484 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 if(comparison)
 remove(check_file_name);
@@ -965,35 +965,35 @@ rename(check_file_name,output_file_name);
 }
 
 /*:111*/
-#line 477 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 477 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }else
 rename(check_file_name,output_file_name);
 }
 
 /*:110*/
-#line 150 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 150 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
 }
 }
 if(check_for_change)
 strcpy(check_file_name,"");
-#line 569 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 569 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*:50*/
-#line 539 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 539 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(show_happiness){
 if(show_progress)new_line();
-#line 111 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 111 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 printf("%s",_("Done."));
-#line 543 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 543 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 }
 }
 }
 
 /*:48*//*54:*/
-#line 590 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 590 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 output_defs(void)
@@ -1020,9 +1020,9 @@ a= (a-0200)*0400+*cur_byte++;
 if(a<024000){
 cur_val= (int)a;out_char(identifier);
 }
-#line 160 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 160 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 else if(a<050000)confusion(_("macro defs have strange char"));
-#line 617 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 617 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 else{
 cur_val= (int)a-050000;cur_section= (sixteen_bits)cur_val;
 out_char(section_number);
@@ -1037,7 +1037,7 @@ pop_level(false);
 }
 
 /*:54*//*55:*/
-#line 635 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 635 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 out_char(
@@ -1050,14 +1050,14 @@ case'\n':if(protect&&out_state!=verbatim)C_putc(' ');
 if(protect||out_state==verbatim)C_putc('\\');
 flush_buffer();if(out_state!=verbatim)out_state= normal;break;
 /*59:*/
-#line 192 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 192 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 
-#line 704 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 704 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 case identifier:
 if(out_state==num_or_id)C_putc(' ');
 for(j= (cur_val+name_dir)->byte_start;
 j<(cur_val+name_dir+1)->byte_start;j++)
-#line 199 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 199 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(ishigh(*j)){
 
 if(transliterate_utf_eight){
@@ -1067,15 +1067,15 @@ else if((eight_bits)(*j)>=0300)j+= 1;
 }
 C_printf("%s",translit[(eight_bits)(*j)-0200]);
 }
-#line 710 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 710 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 else C_putc(*j);
 out_state= num_or_id;break;
 
 /*:59*/
-#line 646 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 646 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*60:*/
-#line 713 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 713 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case section_number:
 if(cur_val> 0)C_printf("/*%d:*/",cur_val);
@@ -1102,10 +1102,10 @@ C_putc('"');C_putc('\n');
 break;
 
 /*:60*/
-#line 647 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 647 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*56:*/
-#line 665 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 665 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case plus_plus:C_putc('+');C_putc('+');out_state= normal;break;
 case minus_minus:C_putc('-');C_putc('-');out_state= normal;break;
@@ -1126,7 +1126,7 @@ case minus_gt_ast:C_putc('-');C_putc('>');C_putc('*');out_state= normal;
 break;
 
 /*:56*/
-#line 648 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 648 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case'=':case'>':C_putc(cur_char);C_putc(' ');
 out_state= normal;break;
@@ -1145,7 +1145,7 @@ default:C_putc(cur_char);out_state= normal;break;
 }
 
 /*:55*//*64:*/
-#line 791 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 791 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static eight_bits
 skip_ahead(void)
@@ -1163,7 +1163,7 @@ if(c!=ignore||*(loc-1)=='>')return c;
 }
 
 /*:64*//*67:*/
-#line 830 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 830 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static bool skip_comment(
 bool is_long_comment)
@@ -1174,9 +1174,9 @@ if(loc> limit){
 if(is_long_comment){
 if(get_line())return comment_continues= true;
 else{
-#line 213 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 213 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Input ended in mid-comment"));
-#line 841 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 841 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 return comment_continues= false;
 }
@@ -1189,9 +1189,9 @@ loc++;return comment_continues= false;
 }
 if(c=='@'){
 if(ccode[(eight_bits)*loc]==new_section){
-#line 219 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 219 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Section name ended in mid-comment"));loc--;
-#line 854 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 854 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 return comment_continues= false;
 }
@@ -1201,7 +1201,7 @@ else loc++;
 }
 
 /*:67*//*69:*/
-#line 871 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 871 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static eight_bits
 get_next(void)
@@ -1216,7 +1216,7 @@ else if(print_where&&!no_where){
 sixteen_bits a;
 print_where= false;
 /*85:*/
-#line 1218 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1218 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 store_two_bytes(0150000);
@@ -1232,7 +1232,7 @@ store_id(a);
 }
 
 /*:85*/
-#line 884 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 884 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 else return(eight_bits)'\n';
@@ -1245,7 +1245,7 @@ else continue;
 }
 loc++;
 if(xisdigit(c)||c=='.')/*73:*/
-#line 956 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 956 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 {
 bool hex_flag= false;
 id_first= loc-1;
@@ -1279,13 +1279,13 @@ return constant;
 }
 
 /*:73*/
-#line 895 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 895 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else if(c=='\''||c=='"'
 ||((c=='L'||c=='u'||c=='U')&&(*loc=='\''||*loc=='"'))
 ||((c=='u'&&*loc=='8')&&(*(loc+1)=='\''||*(loc+1)=='"')))
 /*74:*/
-#line 993 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 993 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 {
 char delim= (char)c;
 id_first= section_text+1;
@@ -1297,15 +1297,15 @@ delim= *loc++;*++id_loc= delim;
 while(true){
 if(loc>=limit){
 if(*(limit-1)!='\\'){
-#line 225 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 225 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! String didn't end"));loc= limit;break;
-#line 1005 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1005 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 if(get_line()==false){
-#line 231 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 231 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Input ended in middle of string"));loc= buffer;break;
-#line 1009 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1009 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 else if(++id_loc<=section_text_end)*id_loc= '\n';
@@ -1323,9 +1323,9 @@ c= (eight_bits)*loc++;
 if(++id_loc<=section_text_end)*id_loc= (char)c;
 }
 if(id_loc>=section_text_end){
-#line 237 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 237 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 printf("%s",_("\n! String too long: "));
-#line 1027 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1027 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 term_write(section_text+1,25);
 err_print("...");
@@ -1335,11 +1335,11 @@ return string;
 }
 
 /*:74*/
-#line 899 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 899 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else if(isalpha((int)c)||isxalpha(c)||ishigh(c))
 /*72:*/
-#line 947 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 947 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 {
 id_first= --loc;
 do
@@ -1350,45 +1350,45 @@ id_loc= loc;return identifier;
 }
 
 /*:72*/
-#line 901 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 901 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else if(c=='@')/*75:*/
-#line 1038 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1038 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 switch(c= ccode[(eight_bits)*loc++]){
 case ignore:continue;
-#line 243 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 243 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 case translit_code:err_print(_("! Use @l in limbo only"));continue;
-#line 1042 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1042 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case control_text:while((c= skip_ahead())=='@');
 
 if(*(loc-1)!='>')
-#line 249 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 249 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Double @ should be used in control text"));
-#line 1047 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1047 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 continue;
 case section_name:
 cur_section_name_char= *(loc-1);
 /*77:*/
-#line 1083 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1083 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 {
 char*k= section_text;
 /*79:*/
-#line 1105 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1105 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 while(true){
 if(loc> limit&&get_line()==false){
-#line 267 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 267 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Input ended in section name"));
-#line 1109 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1109 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 loc= buffer+1;break;
 }
 c= (eight_bits)*loc;
 /*80:*/
-#line 1128 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1128 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(c=='@'){
 c= (eight_bits)*(loc+1);
@@ -1396,22 +1396,22 @@ if(c=='>'){
 loc+= 2;break;
 }
 if(ccode[(eight_bits)c]==new_section){
-#line 279 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 279 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Section name didn't end"));break;
-#line 1136 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1136 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 if(ccode[(eight_bits)c]==section_name){
-#line 285 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 285 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Nesting of section names not allowed"));break;
-#line 1140 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1140 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 *(++k)= '@';loc++;
 }
 
 /*:80*/
-#line 1113 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1113 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 loc++;if(k<section_text_end)k++;
 if(xisspace(c)){
@@ -1420,9 +1420,9 @@ c= (eight_bits)' ';if(*(k-1)==' ')k--;
 *k= (char)c;
 }
 if(k>=section_text_end){
-#line 273 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 273 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 printf("%s",_("\n! Section name too long: "));
-#line 1122 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1122 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 term_write(section_text+1,25);
 printf("...");mark_harmless();
@@ -1430,7 +1430,7 @@ printf("...");mark_harmless();
 if(*k==' '&&k> section_text)k--;
 
 /*:79*/
-#line 1085 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1085 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(k-section_text> 3&&strncmp(k-2,"...",3)==0)
 cur_section_name= section_lookup(section_text+1,k-3,true);
@@ -1439,7 +1439,7 @@ else cur_section_name= section_lookup(section_text+1,k,false);
 
 if(cur_section_name_char=='(')
 /*47:*/
-#line 502 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 502 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 for(an_output_file= cur_out_file;
@@ -1448,38 +1448,38 @@ if(*an_output_file==cur_section_name)break;
 if(an_output_file==end_output_files){
 if(cur_out_file> output_files)
 *--cur_out_file= cur_section_name;
-#line 91 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 91 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 else overflow(_("output files"));
-#line 511 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 511 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 }
 }
 
 /*:47*/
-#line 1093 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1093 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 return section_name;
 }
 
 /*:77*/
-#line 1051 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1051 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case string:/*81:*/
-#line 1150 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1150 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 id_first= loc++;*(limit+1)= '@';*(limit+2)= '>';
 while(*loc!='@'||*(loc+1)!='>')loc++;
-#line 291 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 291 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(loc>=limit)err_print(_("! Verbatim string didn't end"));
-#line 1154 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1154 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 id_loc= loc;loc+= 2;
 return string;
 
 /*:81*/
-#line 1052 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1052 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case ord:/*76:*/
-#line 1063 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1063 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 id_first= loc;
 if(*loc=='\\')
@@ -1487,17 +1487,17 @@ if(*++loc=='\'')loc++;
 while(*loc!='\''){
 if(*loc=='@'){
 if(*(loc+1)!='@')
-#line 255 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 255 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Double @ should be used in ASCII constant"));
-#line 1071 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1071 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else loc++;
 }
 loc++;
 if(loc> limit){
-#line 261 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 261 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! String didn't end"));loc= limit-1;break;
-#line 1077 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1077 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 }
@@ -1505,13 +1505,13 @@ loc++;
 return ord;
 
 /*:76*/
-#line 1053 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1053 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 default:return c;
 }
 
 /*:75*/
-#line 902 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 902 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else if(xisspace(c)){
 if(!preprocessing||loc> limit)continue;
@@ -1521,7 +1521,7 @@ else return(eight_bits)' ';
 }
 else if(c=='#'&&loc==buffer+1)preprocessing= true;
 mistake:/*71:*/
-#line 924 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 924 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 switch(c){
 case'+':if(*loc=='+')compress(plus_plus);break;
@@ -1546,14 +1546,14 @@ case'!':if(*loc=='=')compress(non_eq);break;
 }
 
 /*:71*/
-#line 910 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 910 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 return c;
 }
 }
 
 /*:69*//*83:*/
-#line 1186 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1186 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 scan_repl(
@@ -1561,7 +1561,7 @@ eight_bits t)
 {bool first_bracket= true;
 sixteen_bits a;
 if(t==section_name)/*85:*/
-#line 1218 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1218 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 store_two_bytes(0150000);
@@ -1577,11 +1577,11 @@ store_id(a);
 }
 
 /*:85*/
-#line 1192 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1192 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 while(true)switch(a= get_next()){
 /*86:*/
-#line 1232 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1232 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case identifier:store_id(a);
 if(*buffer=='#'&&(
@@ -1594,28 +1594,28 @@ break;
 case section_name:if(t!=section_name)goto done;
 else{
 /*87:*/
-#line 1273 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1273 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 {
 char*try_loc= loc;
 while(*try_loc==' '&&try_loc<limit)try_loc++;
 if(*try_loc=='+'&&try_loc<limit)try_loc++;
 while(*try_loc==' '&&try_loc<limit)try_loc++;
-#line 327 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 327 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(*try_loc=='=')err_print(_("! Missing `@ ' before a named section"));
-#line 1279 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1279 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 
 
 }
 
 /*:87*/
-#line 1243 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1243 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 a= cur_section_name-name_dir;
 app_repl((a/0400)+0250);
 app_repl(a%0400);
 /*85:*/
-#line 1218 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1218 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 store_two_bytes(0150000);
@@ -1631,13 +1631,13 @@ store_id(a);
 }
 
 /*:85*/
-#line 1247 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1247 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 break;
-#line 315 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 315 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 case output_defs_code:if(t!=section_name)err_print(_("! Misplaced @h"));
-#line 1251 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1251 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else{
 output_defs_seen= true;
@@ -1645,7 +1645,7 @@ a= output_defs_flag;
 app_repl((a/0400)+0200);
 app_repl(a%0400);
 /*85:*/
-#line 1218 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1218 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 {
 store_two_bytes(0150000);
@@ -1661,21 +1661,21 @@ store_id(a);
 }
 
 /*:85*/
-#line 1257 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1257 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 break;
 case constant:case string:
 /*88:*/
-#line 1290 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1290 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 app_repl(a);
 while(id_first<id_loc){
 if(*id_first=='@'){
 if(*(id_first+1)=='@')id_first++;
-#line 333 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 333 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 else err_print(_("! Double @ should be used in string"));
-#line 1296 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1296 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 else if(a==constant&&*id_first=='\''&&!keep_digit_separators)
@@ -1685,12 +1685,12 @@ app_repl(*id_first++);
 app_repl(a);
 
 /*:88*/
-#line 1261 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1261 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 break;
 case ord:
 /*89:*/
-#line 1308 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1308 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 {
 int c= (int)((eight_bits)*id_first);
 if(c=='\\'){
@@ -1727,9 +1727,9 @@ break;
 case'\\':c= '\\';break;
 case'\'':c= '\'';break;
 case'\"':c= '\"';break;
-#line 339 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 339 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 default:err_print(_("! Unrecognized escape sequence"));
-#line 1345 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1345 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 }
@@ -1742,20 +1742,20 @@ app_repl(constant);
 }
 
 /*:89*/
-#line 1264 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1264 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 break;
 case definition:case format_code:case begin_C:if(t!=section_name)goto done;
 else{
-#line 321 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 321 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! @d, @f and @c are ignored in C text"));continue;
-#line 1269 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1269 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 case new_section:goto done;
 
 /*:86*/
-#line 1197 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1197 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 case')':app_repl(a);
 if(t==macro&&first_bracket){app_repl(' ');first_bracket= false;}
@@ -1763,14 +1763,14 @@ break;
 default:app_repl(a);
 }
 done:next_control= (eight_bits)a;
-#line 309 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 309 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 if(text_ptr> text_info_end)overflow(_("text"));
-#line 1205 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1205 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 cur_text= text_ptr;(++text_ptr)->tok_start= tok_ptr;
 }
 
 /*:83*//*90:*/
-#line 1366 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1366 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 scan_section(void)
@@ -1785,7 +1785,7 @@ printf("*%d",(int)section_count);update_terminal();
 next_control= ignore;
 while(true){
 /*92:*/
-#line 1407 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1407 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 while(next_control<definition)
 
@@ -1794,17 +1794,17 @@ loc-= 2;next_control= get_next();
 }
 
 /*:92*/
-#line 1380 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1380 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(next_control==definition){
 /*93:*/
-#line 1414 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1414 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 while((next_control= get_next())=='\n');
 if(next_control!=identifier){
-#line 345 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 345 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Definition flushed, must start with identifier"));
-#line 1418 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1418 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 continue;
 }
@@ -1816,7 +1816,7 @@ scan_repl(macro);
 cur_text->text_link= macro;
 
 /*:93*/
-#line 1382 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1382 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 continue;
 }
@@ -1826,14 +1826,14 @@ p= name_dir;break;
 if(next_control==section_name){
 p= cur_section_name;
 /*94:*/
-#line 1436 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1436 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 while((next_control= get_next())=='+');
 if(next_control!='='&&next_control!=eq_eq)
 continue;
 
 /*:94*/
-#line 1390 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1390 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 break;
 }
@@ -1841,20 +1841,20 @@ return;
 }
 no_where= print_where= false;
 /*95:*/
-#line 1441 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1441 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 /*96:*/
-#line 1446 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1446 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 store_two_bytes((sixteen_bits)(0150000+section_count));
 
 
 /*:96*/
-#line 1442 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1442 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 scan_repl(section_name);
 /*97:*/
-#line 1450 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1450 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 if(p==name_dir||p==NULL){
 last_unnamed->text_link= cur_text-text_info;last_unnamed= cur_text;
@@ -1871,16 +1871,16 @@ cur_text->text_link= section_flag;
 
 
 /*:97*/
-#line 1444 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1444 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 
 /*:95*/
-#line 1396 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1396 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 
 /*:90*//*98:*/
-#line 1465 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1465 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 phase_one(void){
@@ -1893,7 +1893,7 @@ check_complete();
 }
 
 /*:98*//*100:*/
-#line 1481 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1481 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 static void
 skip_limbo(void)
@@ -1907,15 +1907,15 @@ char c= *loc++;
 switch(ccode[(eight_bits)c]){
 case new_section:return;
 case translit_code:/*102:*/
-#line 1511 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1511 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 while(xisspace(*loc)&&loc<limit)loc++;
 loc+= 3;
 if(loc> limit||!xisxdigit(*(loc-3))||!xisxdigit(*(loc-2))
 ||(*(loc-3)>='0'&&*(loc-3)<='7')||!xisspace(*(loc-1)))
-#line 365 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 365 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Improper hex number following @l"));
-#line 1517 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1517 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else{
 unsigned int i;
@@ -1925,9 +1925,9 @@ while(xisspace(*loc)&&loc<limit)loc++;
 beg= loc;
 while(loc<limit&&(xisalpha(*loc)||xisdigit(*loc)||isxalpha(*loc)))loc++;
 if(loc-beg>=translit_length)
-#line 371 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 371 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Replacement string in @l too long"));
-#line 1527 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1527 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 else{
 strncpy(translit[i-0200],beg,(size_t)(loc-beg));
@@ -1936,21 +1936,21 @@ translit[i-0200][loc-beg]= '\0';
 }
 
 /*:102*/
-#line 1493 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1493 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 break;
 case format_code:case'@':break;
 case control_text:if(c=='q'||c=='Q'){
 while((c= (char)skip_ahead())=='@');
 if(*(loc-1)!='>')
-#line 351 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 351 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 err_print(_("! Double @ should be used in control text"));
-#line 1499 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1499 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 break;
-#line 358 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 358 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 }/* otherwise fall through */
 default:err_print(_("! Double @ should be used in limbo"));
-#line 1503 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1503 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 }
 }
@@ -1958,11 +1958,11 @@ default:err_print(_("! Double @ should be used in limbo"));
 }
 
 /*:100*//*103:*/
-#line 1537 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1537 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 
 void
 print_stats(void){
-#line 384 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 384 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 puts(_("\nMemory usage statistics:"));
 printf(_("%td names (out of %ld)\n"),
 (ptrdiff_t)(name_ptr-name_dir),(long)max_names);
@@ -1971,9 +1971,9 @@ printf(_("%td replacement texts (out of %ld)\n"),
 printf(_("%td bytes (out of %ld)\n"),
 (ptrdiff_t)(byte_ptr-byte_mem),(long)max_bytes);
 printf(_("%td tokens (out of %ld)\n"),
-#line 1548 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
+#line 1548 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctangle.w"
 (ptrdiff_t)(tok_ptr-tok_mem),(long)max_toks);
 }
 
-#line 397 "/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
+#line 397 "/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir/ctang-w2c.ch"
 /*:103*/

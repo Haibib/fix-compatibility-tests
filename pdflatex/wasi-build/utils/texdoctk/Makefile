@@ -14,7 +14,7 @@
 
 
 
-VPATH = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
+VPATH = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -186,16 +186,16 @@ am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
 distcleancheck_listfiles = \
   find . \( -type f -a \! \
             \( -name .nfs* -o -name .smb* -o -name .__afs* \) \) -print
-ACLOCAL = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
+ACLOCAL = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
-AUTOCONF = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
+AUTOCONF = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
+AUTOHEADER = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
+AUTOMAKE = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
 AWK = gawk
-CC = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23
+CC = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23
 CCDEPMODE = depmode=gcc3
-CFLAGS = --target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
+CFLAGS = --target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
 CPPFLAGS = 
 CSCOPE = cscope
 CTAGS = ctags
@@ -218,7 +218,7 @@ LIBS =
 LN_S = ln -s
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
+MAKEINFO = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
 MKDIR_P = /usr/bin/mkdir -p
 OBJEXT = o
 PACKAGE = texdoctk--tex-live-
@@ -235,10 +235,10 @@ STRIP = strip
 VERSION = 0.6.1
 WARNING_CFLAGS = -Wimplicit -Wreturn-type
 WIN_WRAPPER = windows_wrapper
-abs_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/utils/texdoctk
-abs_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
-abs_top_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/utils/texdoctk
-abs_top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
+abs_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/utils/texdoctk
+abs_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
+abs_top_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/utils/texdoctk
+abs_top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
 ac_ct_CC = 
 am__include = include
 am__leading_dot = .
@@ -259,7 +259,7 @@ host_alias = wasm32-wasip1
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${prefix}/texmf-dist/doc/info
-install_sh = ${SHELL} /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
+install_sh = ${SHELL} /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
 libdir = ${exec_prefix}/lib/wasm32-wasip1
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -268,18 +268,18 @@ mandir = ${prefix}/texmf-dist/doc/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install
+prefix = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
+srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = 
 top_builddir = .
-top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
+top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/utils/texdoctk
 EXTRA_DIST = $(top_builddir)/../../build-aux/relpath
 perl_scripts = texdoctk
 scriptsdir = texmf-dist/scripts/texdoctk

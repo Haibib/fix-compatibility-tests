@@ -20,7 +20,7 @@
 #		$(SHELL) ./web2c-sh $@ FOO
 # Compare Automake manual (info Automake) 27.9: Multiple Outputs
 #
-srcdir=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c; export srcdir
+srcdir=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c; export srcdir
 target=$1
 base=$2
 

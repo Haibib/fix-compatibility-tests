@@ -21,19 +21,19 @@ case $base in
      exit 1;;
 esac
 
-TEXMFCNF=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../kpathsea; export TEXMFCNF
-CWEBINPUTS=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir; export CWEBINPUTS
+TEXMFCNF=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../kpathsea; export TEXMFCNF
+CWEBINPUTS=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir; export CWEBINPUTS
 
 do_ctangleboot () {
   echo timestamp >$stamp.tmp
   if $AM_V_P; then
-    echo "$prg: /home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle $@"
-    /home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle "$@" || exit 1
+    echo "$prg: /home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle $@"
+    /home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle "$@" || exit 1
     test -s $file.$exts \
     || { echo "$prg: $file.$exts empty." >&2; rm -f $file.$exts; exit 1; }
   else
     echo "  CTANGLE " $base
-    /home/haibib/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle "$@" >$base.out 2>&1; rc=$?
+    /home/saibi/fix-project/fix-compatibility-tests/pdflatex/native-build/texk/web2c/ctangle "$@" >$base.out 2>&1; rc=$?
     # succeed and generate nonempty file
     (test $rc -eq 0 && test -s $file.$exts) \
     || { cat $base.out; rm -f $file.$exts exit $rc; }
@@ -87,8 +87,8 @@ esac
 
 for ext in $exts; do
   src=$file.$ext
-  dst=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/${file}boot.${ext}in
-  sed -e 's,/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir,cwebdir,' \
+  dst=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/${file}boot.${ext}in
+  sed -e 's,/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/cwebdir,cwebdir,' \
       $src >$stamp.tmp
   if cmp -s $stamp.tmp $dst; then
     rm -f $stamp.tmp

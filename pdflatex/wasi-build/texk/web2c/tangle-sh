@@ -38,7 +38,7 @@
 # By the way, the name of the stamp file (foo-tangle) is embedded both
 # in this script and in the various *.am files, so it can't be changed lightly.
 
-TEXMFCNF=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../kpathsea; export TEXMFCNF
+TEXMFCNF=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/web2c/../kpathsea; export TEXMFCNF
 
 env="TEXMFCNF=$TEXMFCNF"
 test "x$WEBINPUTS" = x || env="WEBINPUTS=$WEBINPUTS $env"

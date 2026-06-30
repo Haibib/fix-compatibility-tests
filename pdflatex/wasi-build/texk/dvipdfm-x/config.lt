@@ -449,19 +449,19 @@ file_magic_cmd='$MAGIC_CMD'
 file_magic_glob=''
 want_nocaseglob='no'
 sharedlib_from_linklib_cmd='printf %s\n'
-AR='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar'
+AR='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar'
 lt_ar_flags='cr'
 AR_FLAGS='cr'
 archiver_list_spec='@'
 STRIP='strip'
-RANLIB='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib'
+RANLIB='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib'
 old_postinstall_cmds='chmod 644 $oldlib~$RANLIB $tool_oldlib'
 old_postuninstall_cmds=''
 old_archive_cmds='$AR $AR_FLAGS $oldlib$oldobjs~$RANLIB $tool_oldlib'
 lock_old_archive_extraction='no'
-CC='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
-CFLAGS='--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
-compiler='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+CC='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+CFLAGS='--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
+compiler='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
 GCC='yes'
 lt_cv_sys_global_symbol_pipe=''
 lt_cv_sys_global_symbol_to_cdecl=''
@@ -535,7 +535,7 @@ postuninstall_cmds=''
 finish_cmds=''
 finish_eval=''
 hardcode_into_libs='no'
-sys_lib_search_path_spec='/home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22 /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/lib/wasm32-unknown-wasip1 /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1/noeh /home/haibib/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1 '
+sys_lib_search_path_spec='/home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22 /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/lib/clang/22/lib/wasm32-unknown-wasip1 /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1/noeh /home/saibi/fix-project/fix-compatibility-tests/wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot/lib/wasm32-wasip1 '
 configure_time_dlsearch_path='/lib /usr/lib'
 configure_time_lt_sys_library_path=''
 hardcode_action='immediate'
@@ -545,9 +545,9 @@ enable_dlopen_self_static='unknown'
 old_striplib='strip --strip-debug'
 striplib='strip --strip-unneeded'
 
-LTCC='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
-LTCFLAGS='--target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
-compiler='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+LTCC='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
+LTCFLAGS='--target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h'
+compiler='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23'
 
 # A function that is used when there is no print builtin or printf.
 func_fallback_echo ()
@@ -581,7 +581,7 @@ for var in reload_cmds old_postinstall_cmds old_postuninstall_cmds old_archive_c
     esac
 done
 
-ac_aux_dir='/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvipdfm-x/../../build-aux/'
+ac_aux_dir='/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvipdfm-x/../../build-aux/'
 
 # See if we are running on zsh, and set the options that allow our
 # commands through without removal of \ escapes INIT.

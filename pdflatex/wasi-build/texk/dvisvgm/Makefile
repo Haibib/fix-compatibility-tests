@@ -22,7 +22,7 @@
 #
 # Adapted for TeX Live from original dvisvgm Makefile.am
 # Copyright 2005-2017 Martin Gieseking
-VPATH = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
+VPATH = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -452,22 +452,22 @@ am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
 distcleancheck_listfiles = \
   find . \( -type f -a \! \
             \( -name .nfs* -o -name .smb* -o -name .__afs* \) \) -print
-ACLOCAL = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
+ACLOCAL = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' aclocal-1.18
 AMTAR = $${TAR-tar}
 AM_CPPFLAGS = 
 AM_DEFAULT_VERBOSITY = 1
 AM_LDFLAGS = 
-AR = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar
+AR = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ar
 AS = as
-AUTOCONF = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
+AUTOCONF = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoconf
+AUTOHEADER = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' autoheader
+AUTOMAKE = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' automake-1.18
 AWK = gawk
 BROTLI_CFLAGS = 
 BROTLI_LIBS = 
-CC = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23
+CC = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/clang -std=gnu23
 CCDEPMODE = depmode=gcc3
-CFLAGS = --target=wasm32-wasip1 --sysroot=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
+CFLAGS = --target=wasm32-wasip1 --sysroot=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/share/wasi-sysroot -O2 -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility -include /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-compatibility/wasi-compatibility.h
 CODE_COVERAGE_RULES = 
 CPPFLAGS = 
 CSCOPE = cscope
@@ -494,8 +494,8 @@ EXEEXT =
 FGREP = /usr/bin/grep -F
 FILECMD = file
 FREETYPE2_DEPEND = ${top_builddir}/../../libs/freetype2/libfreetype.a
-FREETYPE2_INCLUDES = -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/freetype2
-FREETYPE2_LIBS = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/libfreetype.a
+FREETYPE2_INCLUDES = -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/freetype2
+FREETYPE2_LIBS = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/freetype2/libfreetype.a
 FT2_CONFIG = 
 GREP = /usr/bin/grep
 HAVE_CXX11 = 1
@@ -505,8 +505,8 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 KPATHSEA_DEPEND = ${top_builddir}/../kpathsea/libkpathsea.la
-KPATHSEA_INCLUDES = -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk -DNO_DEBUG
-KPATHSEA_LIBS = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/libkpathsea.la
+KPATHSEA_INCLUDES = -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk -DNO_DEBUG
+KPATHSEA_LIBS = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/kpathsea/libkpathsea.la
 LD = /usr/bin/ld
 LDFLAGS = -lwasi-emulated-signal -lwasi-emulated-getpid
 LIBGS_INCLUDES = 
@@ -519,7 +519,7 @@ LN_S = ln -s
 LTLIBOBJS =  ${LIBOBJDIR}lstat$U.lo ${LIBOBJDIR}stat$U.lo
 LT_SYS_LIBRARY_PATH = 
 MAINT = #
-MAKEINFO = ${SHELL} '/home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
+MAKEINFO = ${SHELL} '/home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/missing' makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = nm
@@ -538,9 +538,9 @@ PACKAGE_VERSION = 3.6
 PATH_SEPARATOR = :
 PKG_CONFIG = pkg-config
 POTRACE_DEPEND = ${top_builddir}/../../libs/potrace/libpotrace.a
-POTRACE_INCLUDES = -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/include
-POTRACE_LIBS = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/libpotrace.a
-RANLIB = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib
+POTRACE_INCLUDES = -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/include
+POTRACE_LIBS = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/potrace/libpotrace.a
+RANLIB = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/../wasi-sdk-33.0-x86_64-linux/bin/llvm-ranlib
 SED = /usr/bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
@@ -551,12 +551,12 @@ WARNING_CXXFLAGS = -Wreturn-type -Wno-write-strings
 WOFF2_CFLAGS = 
 WOFF2_LIBS = 
 ZLIB_DEPEND = ${top_builddir}/../../libs/zlib/libz.a
-ZLIB_INCLUDES = -I/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/include
-ZLIB_LIBS = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/libz.a
-abs_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/dvisvgm
-abs_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
-abs_top_builddir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/dvisvgm
-abs_top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
+ZLIB_INCLUDES = -I/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/include
+ZLIB_LIBS = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/libs/zlib/libz.a
+abs_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/dvisvgm
+abs_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
+abs_top_builddir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-build/texk/dvisvgm
+abs_top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_CXX = g++
@@ -589,7 +589,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${prefix}/texmf-dist/doc/info
-install_sh = ${SHELL} /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
+install_sh = ${SHELL} /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/build-aux/install-sh
 libdir = ${exec_prefix}/lib/wasm32-wasip1
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -598,18 +598,18 @@ mandir = ${prefix}/texmf-dist/doc/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install
+prefix = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
+srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = 
 top_builddir = .
-top_srcdir = /home/haibib/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
+top_srcdir = /home/saibi/fix-project/fix-compatibility-tests/pdflatex/texlive-source/texk/dvisvgm
 SUBDIRS = . $(DVISVGM_TREE)
 DIST_SUBDIRS = $(SUBDIRS)
 EXTRA_DIST = $(DVISVGM_TREE) TLpatches $(TESTS) tests/sample_v2-nf.svg \

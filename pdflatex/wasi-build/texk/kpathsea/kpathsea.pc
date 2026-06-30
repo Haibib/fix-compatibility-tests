@@ -1,4 +1,4 @@
-prefix=/home/haibib/fix-project/fix-compatibility-tests/pdflatex/wasi-install
+prefix=/home/saibi/fix-project/fix-compatibility-tests/pdflatex/wasi-install
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib/wasm32-wasip1
 includedir=${prefix}/include

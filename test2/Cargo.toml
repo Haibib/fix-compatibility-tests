@@ -1,0 +1,11 @@
+[package]
+name = "test2"
+version = "0.1.0"
+edition = "2024"
+
+[build]
+target = "wasm32-wasip1"
+
+[dependencies]
+wasmtime = "46.0.1"
+wasmtime-wasi = "46.0.1"
