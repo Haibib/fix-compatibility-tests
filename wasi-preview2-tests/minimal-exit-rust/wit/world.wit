@@ -1,0 +1,6 @@
+package example:minimal-exit;
+
+world minimal {
+  import wasi:cli/exit@0.2.0;
+  export wasi:cli/run@0.2.0;
+}

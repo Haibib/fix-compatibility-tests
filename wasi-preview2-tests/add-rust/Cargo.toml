@@ -1,0 +1,10 @@
+[package]
+name = "add-rust"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/driver.rs"
+crate-type = ["cdylib"]
+
+[dependencies]

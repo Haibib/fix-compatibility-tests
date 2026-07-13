@@ -1,0 +1,5 @@
+package example:my-component;
+
+world rust-world {
+  export run: func(x: u32) -> u32;
+}

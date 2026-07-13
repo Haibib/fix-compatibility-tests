@@ -1,0 +1,25 @@
+(component
+  (core module (;0;)
+    (type (;0;) (func (param i32) (result i32)))
+    (table (;0;) 1 1 funcref)
+    (memory (;0;) 16)
+    (global $__stack_pointer (;0;) (mut i32) i32.const 1048576)
+    (global (;1;) i32 i32.const 1048576)
+    (global (;2;) i32 i32.const 1048576)
+    (export "memory" (memory 0))
+    (export "run" (func $run))
+    (export "__data_end" (global 1))
+    (export "__heap_base" (global 2))
+    (func $run (;0;) (type 0) (param i32) (result i32)
+      local.get 0
+      i32.const 7
+      i32.add
+    )
+  )
+  (core instance (;0;) (instantiate 0))
+  (alias core export 0 "memory" (core memory (;0;)))
+  (type (;0;) (func (param "x" u32) (result u32)))
+  (alias core export 0 "run" (core func (;0;)))
+  (func (;0;) (type 0) (canon lift (core func 0)))
+  (export (;1;) "run" (func 0))
+)

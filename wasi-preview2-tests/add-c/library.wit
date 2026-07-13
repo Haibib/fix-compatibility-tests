@@ -1,0 +1,5 @@
+package local:example;
+
+world library-world {
+    export add: func(s32) -> s32;
+}

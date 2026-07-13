@@ -1,0 +1,11 @@
+package local:driver-example;
+package local:library-example {
+    interface library {
+        add: func(x: s32) -> s32;
+    }
+}
+
+world driver-world {
+    import local:library-example/library;
+    export main: func() -> s32;
+}

@@ -1,0 +1,9 @@
+package local:library-example;
+
+interface library {
+    add: func(x: s32) -> s32;
+}
+
+world library-world {
+    export library;
+}
